@@ -1,0 +1,21 @@
+.navbarContainer {
+    background-color: #2b2b2b;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbarLogo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbarText{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
