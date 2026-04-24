@@ -10,13 +10,13 @@ import logo from './assets/Frame 920_page-0001.jpg'; // update path to your actu
 function App() {
   return (
     <BrowserRouter>
-    <nav className='navbarContainer'>
+    {/* <nav className='navbarContainer'>
       <img src={logo} alt="Company Logo" className='navbarLogo' />
       <Link to='/' className='navbarText'>Home</Link>
       <Link to='/products' className='navbarText'>Products</Link>
       <Link to='/about' className='navbarText'>About</Link>
       <Link to='/road-works' className='navbarText'>Road Works</Link>
-    </nav>
+    </nav> */}
     <Routes>
       <Route path='/' element={<Homepage/>}/>
       <Route path='/products' element={<ProductsPage/>}/>
