@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-right: 50px;
 }
 
 .navbarLogo {
@@ -20,4 +21,23 @@
     font-weight: 600;
 }
 
+.letsTalkBtn {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, transform 0.15s;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
 
+.letsTalkBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(-1px);
+}

@@ -1,4 +1,6 @@
-import roadworksImage from '../assets/ChatGPT Image Apr 24, 2026, 07_18_07 AM.png';
+import roadworksImage from '../assets/roadworks_background.png';
+import FooterComponent from '../components/footer';
+import NavBar from '../components/navbar';
 
 const RoadWorksPage = () => {
     return (
@@ -10,24 +12,10 @@ const RoadWorksPage = () => {
                     className="hero-img"
                 />
                 <div className="hero-overlay"></div>
-                <nav>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <div className="logo-box">
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-                                <circle cx="11" cy="11" r="10" fill="#5b3fa6" />
-                                <text x="11" y="15.5" textAnchor="middle" fontSize="12" fontWeight="700" fill="white" fontFamily="Arial">M</text>
-                            </svg>
-                        </div>
-                        <span className="logo-text">SMT Groups</span>
-                    </div>
-                    <a href="#">Home</a>
-                    <a href="/products">Products</a>
-                    <a href="#">About</a>
-                    <a href="#" className="active">Road Works</a>
-                </nav>
+                <NavBar></NavBar>
 
                 <div className="hero-content">
-                    <div className="hero-badge">&#9679; SMT Groups</div>
+                    {/* <div className="hero-badge">&#9679; SMT Groups</div> */}
                     <h1 className="hero-heading">
                         Building Roads.<br />
                         Building <span className="accent">Futures.</span>
@@ -49,7 +37,7 @@ const RoadWorksPage = () => {
                     <div className="stat-lbl">Projects Completed</div>
                 </div>
                 <div className="stat-item">
-                    <div className="stat-num">18+</div>
+                    <div className="stat-num">16+</div>
                     <div className="stat-lbl">Years Experience</div>
                 </div>
                 <div className="stat-item">
@@ -61,6 +49,7 @@ const RoadWorksPage = () => {
                     <div className="stat-lbl">Client Satisfaction</div>
                 </div>
             </div>
+            <FooterComponent></FooterComponent>
         </>
     )
 
