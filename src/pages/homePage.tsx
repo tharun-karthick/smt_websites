@@ -2,13 +2,31 @@ import FooterComponent from "../components/footer";
 import NavBar from "../components/navbar";
 import WhyChooseUsCard from "../components/whyChooseUsCard";
 import { ShieldCheck, Clock, Layers, HardHat, Users, Leaf, Flame, IndianRupee } from "lucide-react";
+import homeHeroImg from "../assets/home_hero_3d.png";
 
 const Homepage = () => {
     return (
         <div>
-            <NavBar></NavBar>
-            <div>
-                <h1>HOME</h1>
+            <div className="home-hero">
+                <img src={homeHeroImg} alt="SMT Infrastructure" className="home-hero-img" />
+                <div className="home-hero-overlay"></div>
+                <NavBar></NavBar>
+                <div className="home-hero-content">
+                    <h1 className="home-hero-heading">
+                        Building the Future with <span className="accent">Quality.</span>
+                    </h1>
+                    <div className="home-hero-divider"></div>
+                    <p className="home-hero-sub">
+                        Premium paver blocks, robust flyash bricks, and expert road works. SMT Infrastructure is your trusted partner for high-performance construction and development.
+                    </p>
+                    <div className="home-hero-btns">
+                        <a href="/products" className="btn-primary">View Products</a>
+                        <a href="/contact" className="btn-ghost">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="home-content-section">
                 <h4 className="WCU-Title">Why SMT Infrastructure Development</h4>
                 <div className="wcGridWrapper">
                     <WhyChooseUsCard
