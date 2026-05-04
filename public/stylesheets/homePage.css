@@ -1,0 +1,29 @@
+.WCU-Title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.wcGridWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .wcGridWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .wcGridWrapper {
+    grid-template-columns: 1fr;
+  }
+}
