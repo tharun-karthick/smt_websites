@@ -3,6 +3,7 @@ import NavBar from "../components/navbar";
 import WhyChooseUsCard from "../components/whyChooseUsCard";
 import { ShieldCheck, Clock, Layers, HardHat, Users, Leaf, Flame, IndianRupee } from "lucide-react";
 import homeHeroImg from "../assets/home_hero_3d.png";
+import structureImg from "../assets/3dStructure.png";
 
 const Homepage = () => {
     return (
@@ -23,6 +24,18 @@ const Homepage = () => {
                         <a href="/products" className="btn-primary">View Products</a>
                         <a href="/contact" className="btn-ghost">Contact Us</a>
                     </div>
+                </div>
+            </div>
+
+            {/* Interactive 3D Map Section */}
+            <div className="interactive-map-section">
+                <div className="map-container">
+                    <img src={structureImg} alt="SMT Infrastructure Facilities" className="map-image" />
+                    
+                    {/* Interactive Marker for Road Works */}
+                    <a href="/road-works" className="interactive-marker marker-roadworks" data-tooltip="Road Works">
+                        1
+                    </a>
                 </div>
             </div>
             
