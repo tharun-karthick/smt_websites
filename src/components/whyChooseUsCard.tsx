@@ -1,4 +1,4 @@
-import { WhyChooseUsCardProps } from "../types/whyChooseUsTypes";
+import { WhyChooseUsCardProps } from "../types/componetTypes";
 
 const WhyChooseUsCard = ({icon, title, description}: WhyChooseUsCardProps) => {
     return (

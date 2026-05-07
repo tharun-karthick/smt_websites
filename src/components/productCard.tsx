@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ProductCardProps } from "../types/productCardTypes";
+import { ProductCardProps } from "../types/componetTypes";
 
 
 

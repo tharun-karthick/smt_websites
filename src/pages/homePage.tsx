@@ -1,6 +1,7 @@
 import FooterComponent from "../components/footer";
 import NavBar from "../components/navbar";
 import WhyChooseUsCard from "../components/whyChooseUsCard";
+import GoogleReviewCard from "../components/googleReviewCard";
 import { ShieldCheck, Clock, Layers, HardHat, Users, Leaf, Flame, IndianRupee } from "lucide-react";
 import homeHeroImg from "../assets/home_hero_3d.png";
 import structureImg from "../assets/3dStructure.png";
@@ -84,6 +85,44 @@ const Homepage = () => {
                     />
                 </div>
             </div>
+            
+            {/* Client Reviews Section */}
+            <div className="client-reviews-section">
+                <h4 className="reviews-title">What Our Clients Say</h4>
+                <div className="reviews-grid">
+                    <GoogleReviewCard 
+                        name="Vedavarshini B"
+                        photo="https://ui-avatars.com/api/?name=Vedavarshini+B&background=0D8ABC&color=fff"
+                        rating={5}
+                        reviewText="Excellent service and a pleasant approach to customers. They offer top quality products at affordable prices. They deliver goods to the site quickly. A great purchasing experience. Keep it up!"
+                    />
+                    <GoogleReviewCard 
+                        name="SANKAR MOHITH"
+                        photo="https://ui-avatars.com/api/?name=SANKAR+MOHITH&background=D81B60&color=fff"
+                        rating={5}
+                        reviewText="I am extremely satisfied with SMT Team work. They have a very committed team & excellent service. A special thanks to SMT who always responded well to my queries and suggestions, quick response to my request are highly appreciated. Wishes you and team many successful years!"
+                    />
+                    <GoogleReviewCard 
+                        name="Kani Kanika"
+                        photo="https://ui-avatars.com/api/?name=Kani+Kanika&background=C2185B&color=fff"
+                        rating={5}
+                        reviewText="We are very happy that we chose SMT Flyash Bricks for our recently completed home. The service, product quality, communication, and final finish were all excellent. The bricks give a unique look to our home, and we receive many compliments. Thank you to the SMT team."
+                    />
+                    <GoogleReviewCard 
+                        name="prabhakaran R"
+                        photo="https://ui-avatars.com/api/?name=prabhakaran+R&background=512DA8&color=fff"
+                        rating={5}
+                        reviewText="The bricks have uniform strength and design, which enhances both safety and durability. Overall, they are reliable and suitable for long-term construction use."
+                    />
+                    <GoogleReviewCard 
+                        name="Then Mozhi"
+                        photo="https://ui-avatars.com/api/?name=Then+Mozhi&background=1976D2&color=fff"
+                        rating={5}
+                        reviewText="They have a wide variety of paver models and they have unique designs with affordable prices.Their commitment to work is really good. Customer friendly. The quality of paver block and laying is highly recommended. They have a huge production capacity and they can deliver the materials on time."
+                    />
+                </div>
+            </div>
+
             <FooterComponent></FooterComponent>
         </div>
     )

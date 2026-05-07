@@ -1,3 +1,11 @@
+import { ReactNode } from "react";
+export interface WhyChooseUsCardProps {
+    // image: string;
+    icon: ReactNode;
+    title: string;
+    description: string;
+}
+
 export interface ProductCardProps {
   /** Path or URL to the .glb file */
   modelSrc: string;
@@ -13,4 +21,11 @@ export interface ProductCardProps {
   poster?: string;
   /** Optional available sizes for the product */
   availableSizes?: string[];
+}
+
+export interface GoogleReviewCardProps {
+    name: string;
+    photo: string;
+    rating?: number;
+    reviewText: string;
 }
