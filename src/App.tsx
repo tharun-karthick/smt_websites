@@ -7,6 +7,7 @@ import RoadWorksPage from './pages/roadworksPage';
 import ContactPage from './pages/contactPage';
 import Privacy from './pages/privacy';
 import TermsAndConditions from './pages/tearmsAndCondition';
+import WhatsAppButton from './components/whatsAppButton';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/privacy-policy' element={<Privacy />} />
         <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
       </Routes>
+      <WhatsAppButton />
     </BrowserRouter>
   );
 }
