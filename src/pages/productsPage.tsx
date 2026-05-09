@@ -27,7 +27,7 @@ const ProductsPage = () => {
 
             <div className="stat-bar">
                 <div className="stat-item">
-                    <div className="stat-num">5M+</div>
+                    <div className="stat-num">40M+</div>
                     <div className="stat-lbl">Bricks Manufactured</div>
                 </div>
                 <div className="stat-item">
