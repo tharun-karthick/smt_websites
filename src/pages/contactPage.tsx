@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 import NavBar from '../components/navbar';
 import FooterComponent from '../components/footer';
 
-
 const ContactPage = () => {
   const form = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
