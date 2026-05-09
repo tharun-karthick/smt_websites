@@ -5,6 +5,7 @@ import GoogleReviewCard from "../components/googleReviewCard";
 import { ShieldCheck, Clock, Layers, HardHat, Users, Leaf, Flame, IndianRupee, Award, Handshake, Building } from "lucide-react";
 import homeHeroImg from "../assets/home_hero_3d.png";
 import structureImg from "../assets/3dStructure.png";
+import GoogleMap from "../components/maps";
 
 const Homepage = () => {
     return (
@@ -113,6 +114,7 @@ const Homepage = () => {
                 </div>
             </div>
 
+            <GoogleMap></GoogleMap>
             <FooterComponent></FooterComponent>
         </div>
     )
