@@ -2,10 +2,11 @@ import React from 'react';
 import NavBar from '../components/navbar';
 import FooterComponent from '../components/footer';
 import { Link } from 'react-router-dom';
+import bgImage from '../assets/background-buildingsketch.png';
 
 const Privacy = () => {
     return (
-        <div className="policy-page-wrapper">
+        <div className="policy-page-wrapper" style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${bgImage})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}>
             <NavBar />
 
             <div className="policy-content-container">

@@ -18,7 +18,7 @@ const NavBar = () => {
                 <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
                 <NavLink to="/road-works" className={({ isActive }) => isActive ? "active" : ""}>Road Works</NavLink>
                 <div className="contactContainer" style={{ marginLeft: 'auto', zIndex: 20 }}>
-                    <Link to="/contact" className="letsTalkBtn">Let's Talk</Link>
+                    <Link to="/contact" className="letsTalkBtn">For Enquiry</Link>
                 </div>
             </nav>
         </div>
