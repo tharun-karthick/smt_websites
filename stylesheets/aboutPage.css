@@ -1,0 +1,26 @@
+/* d:\projects\smt_websites\public\stylesheets\aboutPage.css */
+
+.whoWeAre {
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.whoWeAre h4 {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.whoWeAre p {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: center;
+}

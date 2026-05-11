@@ -1,0 +1,49 @@
+.navbarContainer {
+    background-color: #2b2b2b;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.navbarLogo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbarText{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.letsTalkBtn {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, transform 0.15s;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.letsTalkBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(-1px);
+}

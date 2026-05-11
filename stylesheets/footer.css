@@ -1,0 +1,158 @@
+.footer-wrapper {
+    background-color: #2b2b2b; /* Matching the navbar theme */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.footer-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px 20px 40px;
+    gap: 20px;
+}
+
+.footer-col-1 {
+    flex: 1.5;
+    min-width: 250px;
+}
+
+.footer-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.footer-desc {
+    color: #cccccc;
+    font-size: 13px;
+    line-height: 1.6;
+    max-width: 280px;
+}
+
+.footer-col-2, .footer-col-3 {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-col-4 {
+    flex: 1.5;
+    min-width: 280px;
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #f5c46a; /* Theme accent color */
+}
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #cccccc;
+    font-size: 13.5px;
+    line-height: 1.4;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 10px;
+}
+
+.contact-row:last-child {
+    border-bottom: none;
+}
+
+.contact-icon {
+    margin-top: 2px;
+}
+
+/* Footer Bottom Area */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #222222; /* slightly darker base for the bottom bar */
+}
+
+.footer-bottom-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.footer-bottom-content p {
+    color: #aaaaaa;
+    font-size: 12px;
+    margin: 0;
+}
+
+.scroll-top-btn {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    background-color: #fbc02d; /* Yellow button from image */
+    color: #000;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, height 0.2s;
+}
+
+.scroll-top-btn:hover {
+    background-color: #f5b000;
+    height: 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer-main {
+        flex-direction: column;
+    }
+    .footer-bottom-content {
+        padding-right: 100px; /* Leave space for button */
+    }
+}
