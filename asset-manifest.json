@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/smt_steels/static/css/main.e6c13ad2.css",
-    "main.js": "/smt_steels/static/js/main.b0847831.js",
-    "static/js/453.f3ea2a2f.chunk.js": "/smt_steels/static/js/453.f3ea2a2f.chunk.js",
-    "static/media/background-buildingsketch.png": "/smt_steels/static/media/background-buildingsketch.08a1ef5160344439efcb.png",
-    "static/media/3dStructure.png": "/smt_steels/static/media/3dStructure.7bd027756b86d557ac8b.png",
-    "static/media/roadworks_background.png": "/smt_steels/static/media/roadworks_background.64f2d64f1eb90c11dfd3.png",
-    "static/media/home_hero_3d.png": "/smt_steels/static/media/home_hero_3d.42985b44db5e4e74f994.png",
-    "static/media/about_hero_image.png": "/smt_steels/static/media/about_hero_image.b0225b506e0177967c4d.png",
-    "static/media/products_hero_3d.png": "/smt_steels/static/media/products_hero_3d.1c40faf0035c70574f8b.png",
-    "static/media/Frame 920_page-0001.jpg": "/smt_steels/static/media/Frame 920_page-0001.49743bc15f1c91e4c62f.jpg",
-    "index.html": "/smt_steels/index.html",
-    "main.e6c13ad2.css.map": "/smt_steels/static/css/main.e6c13ad2.css.map",
-    "main.b0847831.js.map": "/smt_steels/static/js/main.b0847831.js.map",
-    "453.f3ea2a2f.chunk.js.map": "/smt_steels/static/js/453.f3ea2a2f.chunk.js.map"
+    "main.css": "/smt_websites/static/css/main.e6c13ad2.css",
+    "main.js": "/smt_websites/static/js/main.2b1cd343.js",
+    "static/js/453.f3ea2a2f.chunk.js": "/smt_websites/static/js/453.f3ea2a2f.chunk.js",
+    "static/media/background-buildingsketch.png": "/smt_websites/static/media/background-buildingsketch.08a1ef5160344439efcb.png",
+    "static/media/3dStructure.png": "/smt_websites/static/media/3dStructure.7bd027756b86d557ac8b.png",
+    "static/media/roadworks_background.png": "/smt_websites/static/media/roadworks_background.64f2d64f1eb90c11dfd3.png",
+    "static/media/home_hero_3d.png": "/smt_websites/static/media/home_hero_3d.42985b44db5e4e74f994.png",
+    "static/media/about_hero_image.png": "/smt_websites/static/media/about_hero_image.b0225b506e0177967c4d.png",
+    "static/media/products_hero_3d.png": "/smt_websites/static/media/products_hero_3d.1c40faf0035c70574f8b.png",
+    "static/media/Frame 920_page-0001.jpg": "/smt_websites/static/media/Frame 920_page-0001.49743bc15f1c91e4c62f.jpg",
+    "index.html": "/smt_websites/index.html",
+    "main.e6c13ad2.css.map": "/smt_websites/static/css/main.e6c13ad2.css.map",
+    "main.2b1cd343.js.map": "/smt_websites/static/js/main.2b1cd343.js.map",
+    "453.f3ea2a2f.chunk.js.map": "/smt_websites/static/js/453.f3ea2a2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b0847831.js"
+    "static/js/main.2b1cd343.js"
   ]
 }
