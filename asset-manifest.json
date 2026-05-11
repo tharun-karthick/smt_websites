@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smt_steels/static/css/main.e6c13ad2.css",
-    "main.js": "/smt_steels/static/js/main.2c7315ef.js",
+    "main.js": "/smt_steels/static/js/main.b0847831.js",
     "static/js/453.f3ea2a2f.chunk.js": "/smt_steels/static/js/453.f3ea2a2f.chunk.js",
     "static/media/background-buildingsketch.png": "/smt_steels/static/media/background-buildingsketch.08a1ef5160344439efcb.png",
     "static/media/3dStructure.png": "/smt_steels/static/media/3dStructure.7bd027756b86d557ac8b.png",
@@ -12,11 +12,11 @@
     "static/media/Frame 920_page-0001.jpg": "/smt_steels/static/media/Frame 920_page-0001.49743bc15f1c91e4c62f.jpg",
     "index.html": "/smt_steels/index.html",
     "main.e6c13ad2.css.map": "/smt_steels/static/css/main.e6c13ad2.css.map",
-    "main.2c7315ef.js.map": "/smt_steels/static/js/main.2c7315ef.js.map",
+    "main.b0847831.js.map": "/smt_steels/static/js/main.b0847831.js.map",
     "453.f3ea2a2f.chunk.js.map": "/smt_steels/static/js/453.f3ea2a2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2c7315ef.js"
+    "static/js/main.b0847831.js"
   ]
 }
