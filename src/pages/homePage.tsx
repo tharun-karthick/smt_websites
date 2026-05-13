@@ -3,7 +3,8 @@ import NavBar from "../components/navbar";
 import WhyChooseUsCard from "../components/whyChooseUsCard";
 import GoogleReviewCard from "../components/googleReviewCard";
 import { ShieldCheck, Clock, Layers, HardHat, Users, Leaf, Flame, IndianRupee, Award, Handshake, Building } from "lucide-react";
-import homeHeroImg from "../assets/home_hero_3d.png";
+import homeHeroImg1 from "../assets/home_hero_3d.png";
+import homeHeroImg2 from "../assets/homePage-roadworks.jpeg";
 import structureImg from "../assets/3dStructure.png";
 import GoogleMap from "../components/maps";
 
@@ -11,7 +12,8 @@ const Homepage = () => {
     return (
         <div>
             <div className="home-hero">
-                <img src={homeHeroImg} alt="SMT Infrastructure" className="home-hero-img" />
+                <img src={homeHeroImg1} alt="SMT Infrastructure" className="home-hero-img" />
+                <img src={homeHeroImg2} alt="SMT Infrastructure Roadworks" className="home-hero-img slide-top" />
                 <div className="home-hero-overlay"></div>
                 <NavBar></NavBar>
                 <div className="home-hero-content">
