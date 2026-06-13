@@ -7,6 +7,13 @@ import homeHeroImg1 from "../assets/home_hero_3d.png";
 import homeHeroImg2 from "../assets/homePage-roadworks.jpeg";
 import structureImg from "../assets/3dStructure.png";
 import GoogleMap from "../components/maps";
+import clientArmstrong from "../assets/armstrong.png";
+import clientDollar from "../assets/Dollar.png";
+import clientSk from "../assets/Sk.png";
+import clientSipcot from "../assets/sipcot.png";
+import clientURC from "../assets/URc.png";
+
+
 
 const Homepage = () => {
     return (
@@ -78,7 +85,55 @@ const Homepage = () => {
                     />
                 </div>
             </div>
-            
+
+            {/* Our Clients Section */}
+            <div className="clients-section">
+                <div className="clients-container">
+                    <h4 className="clients-title">Our Clients</h4>
+                    <div className="clients-underline"></div>
+                    <p className="clients-subtitle">
+                        Trusted by leading industries, corporate giants, and government bodies for high-performance construction and infrastructure solutions.
+                    </p>
+                    <div className="clients-marquee">
+                        <div className="clients-marquee-track">
+                            {/* Group 1 */}
+                            <div className="client-card">
+                                <img src={clientArmstrong} alt="Armstrong" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientDollar} alt="Dollar" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientSk} alt="Sk" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientSipcot} alt="Sipcot" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientURC} alt="URc" className="client-logo" />
+                            </div>
+
+                            {/* Group 2 (Duplicate for seamless infinite scroll) */}
+                            <div className="client-card">
+                                <img src={clientArmstrong} alt="Armstrong" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientDollar} alt="Dollar" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientSk} alt="Sk" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientSipcot} alt="Sipcot" className="client-logo" />
+                            </div>
+                            <div className="client-card">
+                                <img src={clientURC} alt="URc" className="client-logo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Client Reviews Section */}
             <div className="client-reviews-section">
                 <h4 className="reviews-title">What Our Clients Say</h4>

@@ -412,3 +412,140 @@
   top: 55%; 
   left: 45%; /* Centered roughly over the road area */
 }
+
+/* OUR CLIENTS SECTION */
+.clients-section {
+  padding: 80px 2rem;
+  background: radial-gradient(circle at 50% 50%, #ffffff 0%, #f9fafb 100%);
+  border-top: 1px solid #f1f5f9;
+  border-bottom: 1px solid #f1f5f9;
+  overflow: hidden;
+}
+
+.clients-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clients-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.clients-underline {
+  width: 50px;
+  height: 4px;
+  background: #c8821a; /* Orange/gold theme color matching buttons */
+  margin: 0 auto 24px auto;
+  border-radius: 2px;
+}
+
+.clients-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  color: #555555;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+.clients-marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.clients-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 25s linear infinite;
+}
+
+/* Pause the animation when cursor enters the section */
+.clients-section:hover .clients-marquee-track {
+  animation-play-state: paused;
+}
+
+.client-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 280px; /* fixed width for perfect seamless loop math */
+  height: 140px; /* increased height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.client-card:hover {
+  transform: scale(1.15); /* smooth pop-up magnifying effect */
+}
+
+.client-logo {
+  max-width: 240px; /* increased logo width */
+  max-height: 110px; /* increased logo height */
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  filter: none;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+}
+
+.client-card:hover .client-logo {
+  opacity: 1;
+}
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* shifts by half of the duplicated list width */
+  }
+}
+
+/* Responsive adjustments for mobile/tablet screen sizes */
+@media (max-width: 992px) {
+  .clients-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-card {
+    width: 200px;
+    height: 100px;
+  }
+  .client-logo {
+    max-width: 170px;
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .client-card {
+    width: 150px;
+    height: 80px;
+  }
+  .client-logo {
+    max-width: 130px;
+    max-height: 60px;
+  }
+  .clients-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+
