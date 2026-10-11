@@ -1,15 +1,14 @@
 .navbarContainer {
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+    background-color: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.03);
     text-decoration: none;
     color: #1e293b;
     padding: 12px 2rem;
     display: flex;
     align-items: center;
-    gap: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,64 +18,59 @@
     transition: all 0.3s ease;
 }
 
+.navbarContainer nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+    padding: 0;
+}
+
+.navbarContainer .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    flex-shrink: 0;
+}
+
 .navbarLogo {
-    height: 50px;
+    height: 48px;
     width: auto;
     object-fit: contain;
 }
 
-.navbarText {
-    text-decoration: none;
+.navbarContainer .logo-text {
     color: #1e293b;
-    font-weight: 600;
-}
-
-.letsTalkBtn {
-    background-color: var(--primary-brand);
-    color: #ffffff;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 13px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
     font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 10px 24px;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-block;
-    border: 2px solid var(--accent-color);
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(2, 115, 51, 0.15);
+    transition: color 0.2s ease;
 }
 
-.letsTalkBtn:hover {
-    background-color: var(--accent-color);
-    color: #0b2513;
-    border-color: var(--accent-color);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(242, 198, 65, 0.4);
+.navbarContainer .logo-text:hover {
+    color: var(--primary-brand);
 }
 
-/* Navigation inner elements layout overrides */
-.navbarContainer nav {
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    width: 100%;
-    height: auto;
+.navbarContainer .logo-box {
     background: transparent;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
-    gap: 2.5rem;
-    padding: 0;
-    backdrop-filter: none;
+    justify-content: center;
 }
 
-.navbarContainer nav a {
+/* Regular Nav Links */
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand) {
     color: #334155;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 14.5px;
+    font-weight: 600;
     text-decoration: none;
     letter-spacing: 0.03em;
     position: relative;
@@ -84,7 +78,7 @@
     transition: color 0.25s ease;
 }
 
-.navbarContainer nav a::after {
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand)::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -97,36 +91,150 @@
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navbarContainer nav a:hover {
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand):hover {
     color: var(--primary-brand);
 }
 
-.navbarContainer nav a:hover::after,
-.navbarContainer nav a.active::after {
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand):hover::after,
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand).active::after {
     transform: scaleX(1);
     transform-origin: left;
 }
 
-.navbarContainer nav a.active {
+.navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand).active {
     color: var(--primary-brand);
-    font-weight: 600;
-}
-
-.navbarContainer .logo-text {
-    color: #1e293b;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 19px;
     font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
-.navbarContainer .logo-box {
-    background: transparent;
-    border-radius: 6px;
-    width: 32px;
-    height: 32px;
+/* ========================================================
+   ENQUIRY BUTTON STYLES (PREMIUM GOLDEN CTA)
+   ======================================================== */
+.navbarContainer .contactContainer {
+    margin-left: auto;
+    z-index: 20;
     display: flex;
     align-items: center;
+}
+
+.navbarContainer nav a.letsTalkBtn,
+.navbarContainer .letsTalkBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: linear-gradient(135deg, #ffd866 0%, #F2C641 50%, #e2b220 100%);
+    color: #072212 !important;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1.5px solid rgba(212, 163, 23, 0.7);
+    box-shadow: 0 4px 14px rgba(242, 198, 65, 0.38), 0 1px 3px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    cursor: pointer;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* Eliminate regular link underline on button */
+.navbarContainer nav a.letsTalkBtn::after,
+.navbarContainer .letsTalkBtn::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Dynamic Gloss Shimmer Sweep */
+.navbarContainer .letsTalkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -130%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+    transform: skewX(-25deg);
+    transition: all 0.65s ease;
+    pointer-events: none;
+}
+
+.navbarContainer .letsTalkBtn:hover::before {
+    left: 150%;
+}
+
+.navbarContainer .letsTalkBtn:hover {
+    background: linear-gradient(135deg, #ffffff 0%, #ffd866 50%, #F2C641 100%);
+    color: #011b0d !important;
+    border-color: #F2C641;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(242, 198, 65, 0.55), 0 0 16px rgba(2, 115, 51, 0.15);
+}
+
+.navbarContainer .letsTalkBtn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(242, 198, 65, 0.4);
+}
+
+.navbarContainer .letsTalkBtn .enquiry-btn-text {
+    position: relative;
+    z-index: 2;
+}
+
+.navbarContainer .letsTalkBtn .enquiry-btn-icon {
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
+    width: 22px;
+    height: 22px;
+    background: rgba(7, 34, 18, 0.14);
+    border-radius: 50%;
+    transition: transform 0.25s ease, background-color 0.25s ease;
+    flex-shrink: 0;
+}
+
+.navbarContainer .letsTalkBtn:hover .enquiry-btn-icon {
+    transform: translateX(3px);
+    background: rgba(7, 34, 18, 0.24);
+}
+
+/* ========================================================
+   RESPONSIVENESS
+   ======================================================== */
+@media (max-width: 860px) {
+    .navbarContainer {
+        padding: 10px 1.2rem;
+    }
+    .navbarContainer nav {
+        gap: 1.4rem;
+    }
+    .navbarContainer .letsTalkBtn {
+        padding: 8px 16px;
+        font-size: 12px;
+        gap: 6px;
+    }
+    .navbarContainer .logo-text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 680px) {
+    .navbarContainer nav {
+        gap: 0.9rem;
+    }
+    .navbarContainer nav a:not(.letsTalkBtn):not(.navbar-brand) {
+        font-size: 13px;
+    }
+    .navbarContainer .letsTalkBtn .enquiry-btn-text {
+        font-size: 11.5px;
+    }
+    .navbarContainer .letsTalkBtn .enquiry-btn-icon {
+        display: none;
+    }
+    .navbarContainer .letsTalkBtn {
+        padding: 7px 12px;
+    }
 }
