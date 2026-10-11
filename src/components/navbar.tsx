@@ -16,8 +16,9 @@ const NavBar = () => {
                 <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
                 <NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>Products</NavLink>
                 <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
+                <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact Us</NavLink>
                 <div className="contactContainer" style={{ marginLeft: 'auto', zIndex: 20 }}>
-                    <Link to="/contact" className="letsTalkBtn">For Enquiry</Link>
+                    <Link to="/contact" className="letsTalkBtn">Get a Quote</Link>
                 </div>
             </nav>
         </div>
