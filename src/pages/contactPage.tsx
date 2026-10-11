@@ -49,20 +49,20 @@ const ContactPage = () => {
 
   const faqs = [
     {
-      q: 'What is the standard compressive strength for SMT Fly Ash Bricks & Pavers?',
-      a: 'SMT Fly Ash Bricks achieve 7.5 to 12.5 N/mm² (exceeding IS 12894 standards). Interlocking paver blocks are engineered from M30 up to M50 grade (30 to 50 N/mm²) for heavy commercial and industrial vehicular traffic as per IS 15658.',
+      q: 'What is the compressive strength of SMT Paver Blocks & Fly Ash Bricks?',
+      a: 'SMT Paver Blocks are engineered in M30, M40, and M50 grades (30 to 50 N/mm²) compliant with IS 15658:2021 for heavy vehicular and commercial traffic. SMT Fly Ash Bricks achieve 7.5 to 12.5 N/mm², exceeding IS 12894 standards.',
     },
     {
-      q: 'Can we get factory test certificates for government & infrastructure tenders?',
-      a: 'Yes, every bulk supply batch is provided with third-party and in-house laboratory compressive strength and water absorption test certificates compliant with Tamil Nadu PWD, CPWD, and municipal standards.',
+      q: 'Do you provide direct factory loading and site transport?',
+      a: 'Yes, both our Perundurai (Erode) and Puducherry manufacturing plants feature automated hydraulic palletizing for rapid truck loading. We provide reliable freight dispatch directly to your construction site across Tamil Nadu and Puducherry.',
     },
     {
-      q: 'What are the delivery lead times and covered regional zones?',
-      a: 'We cover all districts across Tamil Nadu and Puducherry through our 4 association zones (Chennai, Mettur, Neyveli, and Tuticorin). In-stock products are dispatched within 24 to 48 hours directly to project sites.',
+      q: 'Can we get factory test certificates for project approvals?',
+      a: 'Yes, SMT provides third-party and in-house laboratory compressive strength, water absorption, and abrasion resistance test certificates for government PWD, CPWD, NHAI, and private infrastructure projects.',
     },
     {
-      q: 'How can manufacturers or distributors join the Association Network?',
-      a: 'Brick and block manufacturers in Tamil Nadu can submit their membership inquiry through this form under "Association Membership & Zone Enrollment" or contact the Anna Nagar Secretariat directly.',
+      q: 'What thicknesses, shapes, and colors are available for paver blocks?',
+      a: 'We manufacture 60mm (light traffic/footpaths), 80mm (medium traffic/parking/petrol bunks), and 100mm (heavy industrial/ports) pavers in Zig-Zag, I-Shape, Dumble, Hexagon, and Grass Paver designs in Red, Yellow, Grey, and Black.',
     },
   ];
 
@@ -78,65 +78,65 @@ const ContactPage = () => {
     }}>
       <NavBar />
 
-      {/* Hero Header: Association & Industry Network Banner */}
+      {/* Hero Header: SMT Direct Factory Sales Banner */}
       <section className="contact-hero-banner">
         <div className="contact-hero-content">
           <div className="association-badge">
             <span className="badge-pulse"></span>
-            <span>TAMIL NADU FLY ASH BRICKS & BLOCKS ASSOCIATION NETWORK</span>
+            <span>SMT PAVER BLOCKS & INFRASTRUCTURE | DIRECT FACTORY SALES</span>
           </div>
           <h1 className="contact-hero-title">
-            Connect With The <span className="highlight-text">Association & Manufacturing Hub</span>
+            Direct Factory Procurement & <span className="highlight-text">Enquiry Portal</span>
           </h1>
           <p className="contact-hero-desc">
-            Direct factory quotations, technical testing certifications, bulk project dispatch, and regional zone coordination across Tamil Nadu and Puducherry.
+            Connect directly with SMT manufacturing plants for wholesale pricing on Interlocking Paver Blocks, Fly Ash Bricks, and Solid Concrete Blocks. Fast site delivery across Tamil Nadu & Puducherry.
           </p>
 
           <div className="association-key-stats">
             <div className="hero-stat-pill">
-              <strong>IS 12894:2002</strong>
-              <span>Certified Fly Ash Bricks</span>
-            </div>
-            <div className="hero-stat-pill">
-              <strong>IS 15658:2021</strong>
+              <strong>M30 to M50 Grade</strong>
               <span>Heavy Duty Pavers</span>
             </div>
             <div className="hero-stat-pill">
-              <strong>4 Regional Zones</strong>
-              <span>Statewide Dispatch</span>
+              <strong>IS 12894 Certified</strong>
+              <span>Eco Fly Ash Bricks</span>
+            </div>
+            <div className="hero-stat-pill">
+              <strong>2 Casting Plants</strong>
+              <span>Perundurai & Puducherry</span>
             </div>
             <div className="hero-stat-pill">
               <strong>16+ Years</strong>
-              <span>Industry Leadership</span>
+              <span>Manufacturing Excellence</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Container: 2-Column Association Layout */}
+      {/* Main Container: 2-Column SMT Direct Layout */}
       <main className="contact-layout-wrapper">
         
-        {/* Left Column: Association Hubs & Direct Hotlines */}
+        {/* Left Column: SMT Plants & Direct Contacts */}
         <aside className="association-info-panel">
           
           <div className="panel-header">
-            <h2 className="panel-title">Regional Secretariat & Factories</h2>
-            <p className="panel-subtitle">Reach out directly to our state secretariat or regional manufacturing units.</p>
+            <h2 className="panel-title">SMT Manufacturing Plants</h2>
+            <p className="panel-subtitle">Contact our factory offices directly for loading schedules, site visits, and instant support.</p>
           </div>
 
           <div className="hub-cards-container">
-            {/* Hub 1: Association Registered Secretariat */}
-            <div className="hub-card association-headquarters">
-              <div className="hub-tag">Official Association Secretariat</div>
-              <h3 className="hub-name">Tamilnadu Fly Ash Bricks Association (TNFABA)</h3>
+            {/* Hub 1: Main Manufacturing Plant & Lab (Perundurai) */}
+            <div className="hub-card factory-hub">
+              <div className="hub-tag factory-tag">Main Factory & Material Testing Lab</div>
+              <h3 className="hub-name">SMT Pavers & Bricks — Perundurai Plant</h3>
               <p className="hub-address">
-                AD61, New No. 3 AD Block, 3rd Street,<br />
-                Anna Nagar, Chennai - 600040, Tamil Nadu.
+                04/184, Kummakalipalayam, Perundurai R.S (post),<br />
+                Perundurai, Erode - 638052, Tamil Nadu.
               </p>
               <div className="hub-contacts">
-                <a href="tel:+918883144777" className="hub-link">
+                <a href="tel:+919942375000" className="hub-link">
                   <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                  <span>Secretariat: +91 88831 44777</span>
+                  <span>Factory Phone: +91 99423 75000</span>
                 </a>
                 <a href="mailto:smtflyashbricks@gmail.com" className="hub-link">
                   <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
@@ -145,25 +145,9 @@ const ContactPage = () => {
               </div>
             </div>
 
-            {/* Hub 2: Main Manufacturing Plant & Lab (Perundurai) */}
+            {/* Hub 2: Coastal Distribution & Manufacturing Hub (Puducherry) */}
             <div className="hub-card factory-hub">
-              <div className="hub-tag factory-tag">Main Factory & Material Testing Lab</div>
-              <h3 className="hub-name">SMT Pavers & Bricks — Perundurai Unit</h3>
-              <p className="hub-address">
-                04/184, Kummakalipalayam, Perundurai R.S (post),<br />
-                Perundurai, Erode - 638052, Tamil Nadu.
-              </p>
-              <div className="hub-contacts">
-                <a href="tel:+919942375000" className="hub-link">
-                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                  <span>Factory Direct: +91 99423 75000</span>
-                </a>
-              </div>
-            </div>
-
-            {/* Hub 3: Coastal Distribution & Manufacturing Hub (Puducherry) */}
-            <div className="hub-card factory-hub">
-              <div className="hub-tag coastal-tag">Coastal Manufacturing & Dispatch Unit</div>
+              <div className="hub-tag coastal-tag">Coastal Manufacturing & Dispatch Plant</div>
               <h3 className="hub-name">SMT Pavers — Puducherry Plant</h3>
               <p className="hub-address">
                 R.S.No. 127/1/A/1, Arumpathapuram, Villianur Main Road,<br />
@@ -178,14 +162,14 @@ const ContactPage = () => {
             </div>
           </div>
 
-          {/* Operational Zones Strip */}
+          {/* SMT Supply Capabilities Strip */}
           <div className="association-zones-box">
-            <h4 className="zones-title">Association Operational Zones:</h4>
+            <h4 className="zones-title">SMT Direct Delivery Coverage:</h4>
             <div className="zones-list">
-              <span className="zone-chip">📍 Chennai Zone</span>
-              <span className="zone-chip">📍 Mettur & Erode Zone</span>
-              <span className="zone-chip">📍 Neyveli & Puducherry Zone</span>
-              <span className="zone-chip">📍 Tuticorin Zone</span>
+              <span className="zone-chip">📍 Erode & Salem</span>
+              <span className="zone-chip">📍 Coimbatore & Tirupur</span>
+              <span className="zone-chip">📍 Puducherry & Cuddalore</span>
+              <span className="zone-chip">📍 Chennai & All TN Districts</span>
             </div>
           </div>
 
@@ -193,30 +177,30 @@ const ContactPage = () => {
           <div className="instant-whatsapp-card">
             <div className="whatsapp-card-content">
               <h4>Need Immediate Factory Pricing?</h4>
-              <p>Chat directly with our plant logistics & engineering team on WhatsApp for instant catalog & quote.</p>
+              <p>Chat directly with SMT's plant sales manager on WhatsApp for immediate catalog, sample photos, and custom quote.</p>
             </div>
             <a
-              href="https://wa.me/919942375000?text=Hello%20SMT%20Team,%20I%20would%20like%20to%20inquire%20about%20Fly%20Ash%20Bricks%20and%20Paver%20Blocks%20quotation."
+              href="https://wa.me/919942375000?text=Hello%20SMT%20Team,%20I%20would%20like%20to%20get%20a%20direct%20factory%20quotation%20for%20Paver%20Blocks%20and%20Fly%20Ash%20Bricks."
               target="_blank"
               rel="noreferrer"
               className="whatsapp-action-btn"
             >
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
-              <span>WhatsApp Us Now</span>
+              <span>WhatsApp Direct Enquiry</span>
             </a>
           </div>
 
         </aside>
 
-        {/* Right Column: Association & Factory Supply Form with EmailJS */}
+        {/* Right Column: Direct SMT Factory Enquiry Form with EmailJS */}
         <section className="association-form-panel">
           <form ref={form} onSubmit={sendEmail} className="association-enquiry-form">
             
             <div className="form-title-group">
-              <span className="form-eyebrow">Online Portal</span>
-              <h2 className="form-main-heading">Association & Supply Enquiry Form</h2>
+              <span className="form-eyebrow">Direct Factory Portal</span>
+              <h2 className="form-main-heading">SMT Direct Factory Enquiry Form</h2>
               <p className="form-main-desc">
-                Please complete the details below. All submissions are automatically dispatched via EmailJS to our technical desk.
+                Submit your project requirements below to receive a direct factory quotation and technical datasheet from the SMT sales team via EmailJS.
               </p>
             </div>
 
@@ -224,7 +208,7 @@ const ContactPage = () => {
             <div className="form-section-block">
               <h3 className="block-title">
                 <span className="block-number">1</span>
-                Contact & Organization Information
+                Contact & Company Information
               </h3>
               
               <div className="form-grid">
@@ -234,18 +218,18 @@ const ContactPage = () => {
                     id="user_name"
                     type="text"
                     name="user_name"
-                    placeholder="e.g. Er. K. Ramesh"
+                    placeholder="Enter your name"
                     required
                   />
                 </div>
 
                 <div className="input-group">
-                  <label htmlFor="user_company">Company / Builder / Firm Name</label>
+                  <label htmlFor="user_company">Company / Builder / Contractor Name</label>
                   <input
                     id="user_company"
                     type="text"
                     name="user_company"
-                    placeholder="e.g. Ramesh Constructions / Developer"
+                    placeholder="e.g. ABC Developers / Contractor"
                   />
                 </div>
 
@@ -257,7 +241,7 @@ const ContactPage = () => {
                       id="user_phone"
                       type="tel"
                       name="user_phone"
-                      placeholder="98765 43210"
+                      placeholder="Enter 10-digit mobile number"
                       pattern="[0-9]{10}"
                       title="Please enter a valid 10-digit mobile number"
                       required
@@ -278,31 +262,31 @@ const ContactPage = () => {
               </div>
             </div>
 
-            {/* Subsection 2: Inquiry Classification */}
+            {/* Subsection 2: Requirement Details */}
             <div className="form-section-block">
               <h3 className="block-title">
                 <span className="block-number">2</span>
-                Requirement Details & Classification
+                Product Requirement & Site Details
               </h3>
 
               <div className="form-grid">
                 <div className="input-group">
-                  <label htmlFor="enquiry_type">Nature of Enquiry <span className="required">*</span></label>
-                  <select id="enquiry_type" name="enquiry_type" required defaultValue="Fly Ash Bricks Bulk Supply">
-                    <option value="Fly Ash Bricks Bulk Supply">Eco Fly Ash Bricks Bulk Supply</option>
-                    <option value="Heavy Duty Pavers Supply">Interlocking Paver Blocks (Heavy Duty / Industrial)</option>
-                    <option value="Concrete Solid Blocks">Solid Concrete Blocks & Kerb Stones</option>
-                    <option value="Association Membership">Association Membership & Zone Enrollment</option>
-                    <option value="Technical Lab Certificates">Technical Specs & IS Test Certificates</option>
-                    <option value="Site Laying & Estimation">Site Measurement & Laying Consultation</option>
-                    <option value="General Technical Inquiry">Other Commercial Inquiry</option>
+                  <label htmlFor="enquiry_type">Select SMT Product / Service <span className="required">*</span></label>
+                  <select id="enquiry_type" name="enquiry_type" required defaultValue="Interlocking Paver Blocks">
+                    <option value="Interlocking Paver Blocks">SMT Interlocking Paver Blocks (Heavy Duty / Industrial)</option>
+                    <option value="Fly Ash Bricks">SMT Eco Fly Ash Bricks (Bulk Factory Supply)</option>
+                    <option value="Solid Concrete Blocks">SMT Solid Concrete Blocks & Kerb Stones</option>
+                    <option value="Grass Paver Blocks">SMT Grass Paver Blocks</option>
+                    <option value="Factory Quotation & Estimation">Direct Factory Price Quotation & Estimation</option>
+                    <option value="Site Laying & Consultation">Site Measurement & Paving Laying Services</option>
+                    <option value="Dealership & Bulk Distribution">Dealership / Commercial Distribution</option>
                   </select>
                 </div>
 
                 <div className="input-group">
                   <label htmlFor="project_location">Delivery District / Site Location <span className="required">*</span></label>
                   <select id="project_location" name="project_location" required defaultValue="Erode">
-                    <option value="Erode">Erode District (Main Plant)</option>
+                    <option value="Erode">Erode District (Main Factory)</option>
                     <option value="Puducherry">Puducherry / Karaikal</option>
                     <option value="Coimbatore">Coimbatore District</option>
                     <option value="Chennai">Chennai & Suburbs</option>
@@ -311,7 +295,7 @@ const ContactPage = () => {
                     <option value="Trichy">Tiruchirappalli (Trichy)</option>
                     <option value="Cuddalore">Cuddalore & Villupuram</option>
                     <option value="Madurai">Madurai & South TN</option>
-                    <option value="Other Tamil Nadu Location">Other District in Tamil Nadu</option>
+                    <option value="Other District in Tamil Nadu">Other District in Tamil Nadu</option>
                   </select>
                 </div>
 
@@ -321,7 +305,7 @@ const ContactPage = () => {
                     id="quantity"
                     type="text"
                     name="quantity"
-                    placeholder="e.g. 15,000 Bricks or 5,000 Sq.Ft Pavers"
+                    placeholder="e.g. 10,000 Bricks or 5,000 Sq.Ft Pavers"
                   />
                 </div>
 
@@ -331,25 +315,25 @@ const ContactPage = () => {
                     <option value="Immediate (1-3 Days)">Immediate Dispatch (1-3 Days)</option>
                     <option value="Within 1-2 Weeks">Within 1-2 Weeks</option>
                     <option value="Within 1 Month">Within 1 Month</option>
-                    <option value="Planning / Budgeting Stage">Planning / Tender Stage</option>
+                    <option value="Planning Stage">Planning / Estimating Stage</option>
                   </select>
                 </div>
               </div>
             </div>
 
-            {/* Subsection 3: Message & Specs */}
+            {/* Subsection 3: Specifications & Message */}
             <div className="form-section-block">
               <h3 className="block-title">
                 <span className="block-number">3</span>
-                Technical Specifications & Project Notes
+                Technical Specifications & Project Message
               </h3>
 
               <div className="input-group">
-                <label htmlFor="message">Message / Scope of Work <span className="required">*</span></label>
+                <label htmlFor="message">Message / Specifications <span className="required">*</span></label>
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Specify product grade (e.g. M30, M40, M50), dimensions (60mm, 80mm, 100mm), patterns, or site unloading requirements..."
+                  placeholder="Tell us about your project requirements (e.g. paver thickness 60mm/80mm/100mm, colors, patterns, bricks quantity, or delivery site address)..."
                   maxLength={600}
                   required
                   rows={5}
@@ -363,12 +347,12 @@ const ContactPage = () => {
               <div className="checkbox-group">
                 <input type="checkbox" id="agree" name="agree" required defaultChecked />
                 <label htmlFor="agree">
-                  I consent to receive official technical quotations, compliance test reports, and dispatch updates via Phone, WhatsApp, and Email.
+                  I agree to receive direct factory quotations, product test certificates, and dispatch updates from the SMT sales team via Phone, WhatsApp, and Email.
                 </label>
               </div>
             </div>
 
-            {/* Submit Button & Interactive Statuses */}
+            {/* Submit Button & Interactive EmailJS Status */}
             <div className="form-action-container">
               <button
                 type="submit"
@@ -378,11 +362,11 @@ const ContactPage = () => {
                 {isSubmitting ? (
                   <>
                     <span className="btn-spinner"></span>
-                    <span>DISPATCHING VIA EMAILJS...</span>
+                    <span>SENDING VIA EMAILJS...</span>
                   </>
                 ) : (
                   <>
-                    <span>SUBMIT OFFICIAL ENQUIRY</span>
+                    <span>SUBMIT DIRECT SMT ENQUIRY</span>
                     <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2.5" fill="none"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                   </>
                 )}
@@ -395,7 +379,7 @@ const ContactPage = () => {
                 <div className="status-icon">✓</div>
                 <div>
                   <h4>Enquiry Dispatched Successfully!</h4>
-                  <p>Your technical inquiry has been submitted directly to our coordinator via EmailJS. We will review your project parameters and respond within 2-4 business hours.</p>
+                  <p>Thank you for contacting SMT! Your enquiry has been sent to our sales and dispatch desk via EmailJS. Our plant coordinator will reach out to you within 2-4 business hours.</p>
                 </div>
               </div>
             )}
@@ -404,15 +388,15 @@ const ContactPage = () => {
               <div className="status-notification error-box">
                 <div className="status-icon">⚠️</div>
                 <div>
-                  <h4>Submission Encountered An Issue</h4>
-                  <p>We could not dispatch via EmailJS at this moment. You can connect immediately with our plant manager via WhatsApp or Call for an instant quote.</p>
+                  <h4>Submission Notice</h4>
+                  <p>Could not send through EmailJS at this instant. You can connect directly with our SMT sales manager on WhatsApp or Call for an instant quote.</p>
                   <a
-                    href="https://wa.me/919942375000?text=Hello%20SMT%20Team,%20I%20tried%20submitting%20a%20contact%20form%20for%20Fly%20Ash%20Bricks%20and%20Paver%20Blocks."
+                    href="https://wa.me/919942375000?text=Hello%20SMT%20Team,%20I%20am%20looking%20for%20a%20factory%20quote%20for%20Paver%20Blocks%20and%20Fly%20Ash%20Bricks."
                     target="_blank"
                     rel="noreferrer"
                     className="error-fallback-btn"
                   >
-                    Open WhatsApp Chat Direct
+                    Open Direct WhatsApp Chat
                   </a>
                 </div>
               </div>
@@ -422,7 +406,7 @@ const ContactPage = () => {
             <div className="form-meta-footer">
               <div className="security-badge">
                 <svg viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" strokeWidth="2" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                <span>Direct Association Registry | Privacy Protected</span>
+                <span>Direct SMT Factory Portal | Privacy Guaranteed</span>
               </div>
               <div className="social-links-strip">
                 <a
@@ -459,13 +443,13 @@ const ContactPage = () => {
 
       </main>
 
-      {/* Association Technical FAQ Section */}
+      {/* SMT Technical FAQ Section */}
       <section className="association-faq-section">
         <div className="faq-container">
           <div className="faq-header">
-            <span className="faq-eyebrow">Technical Advisory & Guidelines</span>
-            <h2 className="faq-title">Frequently Asked Association Questions</h2>
-            <p className="faq-desc">Answers to common inquiries regarding standards, compressive testing, and procurement.</p>
+            <span className="faq-eyebrow">Customer & Technical Advisory</span>
+            <h2 className="faq-title">Frequently Asked SMT Questions</h2>
+            <p className="faq-desc">Answers to common questions regarding our factory direct orders, testing reports, and delivery.</p>
           </div>
 
           <div className="faq-accordion-list">
@@ -490,12 +474,12 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Geographic Factory Map Section */}
+      {/* SMT Factory Maps Section */}
       <section className="contact-map-wrapper">
         <div className="map-header-block">
-          <span className="map-eyebrow">On-Site Visit & Direct Plant Loading</span>
+          <span className="map-eyebrow">Direct Factory Inspection & Loading</span>
           <h2 className="map-title">SMT Manufacturing Locations</h2>
-          <p className="map-desc">Visit our automated casting plants in Perundurai (Erode) & Puducherry for live sample testing and truck loading.</p>
+          <p className="map-desc">Visit our high-capacity production plants in Perundurai (Erode) & Puducherry for live sample inspections and prompt dispatch.</p>
         </div>
         <GoogleMap />
       </section>
