@@ -1,92 +1,124 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import FooterComponent from "../components/footer";
 import NavBar from "../components/navbar";
 import aboutHeroImage from "../assets/about_hero_image.png";
-import { ShieldCheck, Handshake, Building, Users, Clock } from "lucide-react";
+import { ShieldCheck, Handshake, Building, Users, Clock, CheckCircle2 } from "lucide-react";
 
 const AboutPage = () => {
     return (
         <div className="about-page-container">
+            <NavBar />
+
             {/* HERO SECTION */}
-            <div className="hero">
+            <section className="about-hero">
                 <img
                     src={aboutHeroImage}
-                    alt="About SMT Infrastructure"
-                    className="hero-img"
+                    alt="SMT Infrastructure Manufacturing & Construction"
+                    className="about-hero-img"
                 />
-                <div className="hero-overlay"></div>
-                <NavBar></NavBar>
+                <div className="about-hero-overlay"></div>
 
-                <div className="hero-content">
-                    <h1 className="hero-heading">
+                <div className="about-hero-content">
+                    <div className="about-hero-badge">
+                        <span className="badge-pulse"></span>
+                        <span>Tamil Nadu's Trusted Paver & Brick Manufacturer</span>
+                    </div>
+                    <h1 className="about-hero-heading">
                         Building Trust.<br />
                         Delivering <span className="accent">Excellence.</span>
                     </h1>
-                    <div className="hero-divider"></div>
-                    <p className="hero-sub">
-                        SMT Infrastructure is a leading force in construction and manufacturing, known for durable solutions and dependable service across paver blocks, fly ash bricks, and beyond.
+                    <div className="about-hero-divider"></div>
+                    <p className="about-hero-sub">
+                        SMT Infrastructure is a premier manufacturing and contracting force in Tamil Nadu, delivering high-compressive interlocking paver blocks, eco-friendly fly ash bricks, and engineered civil paving solutions.
                     </p>
-                    <div className="hero-btns">
-                        <a href="/contact" className="btn-primary">Contact Us</a>
-                        <a href="/products" className="btn-ghost">View Products</a>
+                    <div className="about-hero-btns">
+                        <Link to="/contact" className="btn-primary">Contact Us</Link>
+                        <Link to="/products" className="btn-ghost">View Products</Link>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            {/* STATS BAR */}
+            {/* CREDIBILITY STATS BAR */}
             <div className="about-stats-bar">
                 <div className="about-stats-container">
                     <div className="about-stat-item">
                         <div className="about-stat-num">16+</div>
-                        <div className="about-stat-label">Years Experience</div>
+                        <div className="about-stat-label">Years Industry Experience</div>
                     </div>
                     <div className="about-stat-item">
-                        <div className="about-stat-num">Micro Enterprise</div>
-                        <div className="about-stat-label">FY 2023-24 Classification</div>
+                        <div className="about-stat-num">40M+</div>
+                        <div className="about-stat-label">Bricks & Pavers Produced</div>
+                    </div>
+                    <div className="about-stat-item">
+                        <div className="about-stat-num">2 Plants</div>
+                        <div className="about-stat-label">Perundurai & Puducherry</div>
                     </div>
                     <div className="about-stat-item">
                         <div className="about-stat-num">100%</div>
-                        <div className="about-stat-label">Personal Accountability</div>
-                    </div>
-                    <div className="about-stat-item">
-                        <div className="about-stat-num">Premium</div>
-                        <div className="about-stat-label">Quality Assured</div>
+                        <div className="about-stat-label">Certified Quality Assured</div>
                     </div>
                 </div>
             </div>
 
             {/* STORY & PHILOSOPHY SPLIT SECTION */}
-            <div className="about-story-section">
+            <section className="about-story-section">
                 <div className="about-story-container">
                     <div className="about-story-grid">
                         <div className="about-story-text">
-                            <h4 className="about-section-tag">OUR STORY</h4>
-                            <h2 className="about-section-title">The Foundation of SMT</h2>
+                            <span className="about-section-tag">OUR JOURNEY</span>
+                            <h2 className="about-section-title">The Foundation of SMT Infrastructure</h2>
+                            <div className="about-title-underline"></div>
                             <p className="about-paragraph">
-                                Operating under <strong>SMT Agencies</strong>, SMT Infrastructure has grown to become a trusted name in civil works and manufacturing. Classified as a Micro Enterprise in FY 2023–24, we take pride in our focused scale, which allows us to maintain direct leadership involvement and absolute personal accountability on every project.
+                                Operating with deep industry heritage under <strong>SMT Agencies</strong>, SMT Infrastructure has grown to become a benchmark in Tamil Nadu for superior concrete materials and civil contracting works. Our focused scale empowers our leadership to maintain hands-on supervision and absolute personal accountability on every dispatch.
                             </p>
                             <p className="about-paragraph">
-                                Over the last 16+ years, we have built a reputation for excellence by producing top-tier materials and executing heavy-duty construction works. We serve industrial, commercial, and government sectors with consistent dedication.
+                                Over the last 16+ years, we have built lasting trust by engineering heavy-duty interlocking pavers, eco-conscious fly ash bricks, and delivering site execution for industrial corridors, commercial complexes, and government public infrastructure.
                             </p>
+                            <div className="story-key-highlights">
+                                <div className="highlight-item">
+                                    <CheckCircle2 size={18} className="highlight-icon" />
+                                    <span>Automated hydraulic block casting technology</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <CheckCircle2 size={18} className="highlight-icon" />
+                                    <span>IS 12894 and IS 15658 compliant manufacturing</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <CheckCircle2 size={18} className="highlight-icon" />
+                                    <span>Direct site transportation across Tamil Nadu & Puducherry</span>
+                                </div>
+                            </div>
                         </div>
+
                         <div className="about-story-quote">
                             <div className="quote-box">
                                 <span className="quote-icon">“</span>
                                 <p className="quote-text">
-                                    We don't just build infrastructure — we build trust. Every project we deliver and block we manufacture is backed by personal accountability and durability.
+                                    We don't just supply concrete materials — we lay the foundations of enduring trust. Every brick we press and every paver we cast is backed by uncompromising compressive strength and personal accountability.
                                 </p>
-                                <div className="quote-author">SMT Leadership Team</div>
+                                <div className="quote-author-row">
+                                    <div className="author-avatar">SMT</div>
+                                    <div>
+                                        <div className="quote-author">SMT Leadership Team</div>
+                                        <div className="author-title">Perundurai & Puducherry Divisions</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* CORE VALUES SECTION */}
-            <div className="about-values-section">
+            <section className="about-values-section">
                 <div className="about-values-container">
-                    <h4 className="about-section-tag center">OUR PRINCIPLES</h4>
-                    <h2 className="about-section-title center">Values That Guide Us</h2>
-                    <div className="about-values-underline"></div>
+                    <div className="section-center-header">
+                        <span className="about-section-tag">OUR PRINCIPLES</span>
+                        <h2 className="about-section-title center">Values That Guide SMT</h2>
+                        <div className="about-values-underline"></div>
+                        <p className="section-subtitle">Core standards that govern every block manufactured and every project delivered.</p>
+                    </div>
                     
                     <div className="values-grid">
                         <div className="value-card">
@@ -94,85 +126,115 @@ const AboutPage = () => {
                                 <ShieldCheck size={28} />
                             </div>
                             <h3>Quality Assurance</h3>
-                            <p>Our manufacturing and site execution adhere to rigorous strength parameters for long-lasting integrity.</p>
+                            <p>Our casting and compaction adhere to strict laboratory strength parameters for lifelong durability under high traffic loads.</p>
                         </div>
                         <div className="value-card">
                             <div className="value-icon-wrapper">
                                 <Handshake size={28} />
                             </div>
                             <h3>Transparency</h3>
-                            <p>We foster client relationships on a foundation of open communication, accurate quotes, and honest deadlines.</p>
+                            <p>We nurture client partnerships on honest pricing, transparent technical test certificates, and dependable dispatch schedules.</p>
                         </div>
                         <div className="value-card">
                             <div className="value-icon-wrapper">
                                 <Users size={28} />
                             </div>
-                            <h3>Focused Scale</h3>
-                            <p>Being a Micro Enterprise means we focus deeply on your needs, ensuring high responsiveness and detailed supervision.</p>
+                            <h3>Personal Accountability</h3>
+                            <p>Direct leadership engagement ensures prompt customer service, custom pattern designs, and rigorous on-site supervision.</p>
                         </div>
                         <div className="value-card">
                             <div className="value-icon-wrapper">
                                 <Building size={28} />
                             </div>
                             <h3>Robust Engineering</h3>
-                            <p>From base foundations to physical paver compositions, our materials are designed to resist heavy wear and weathering.</p>
+                            <p>From base grading to dense aggregate selection, our products are engineered to resist severe wear, weather, and heavy vehicular impact.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* OPERATIONAL PILLARS SECTION */}
-            <div className="about-pillars-section">
+            <section className="about-pillars-section">
                 <div className="about-pillars-container">
-                    <h4 className="about-section-tag center">CAPABILITIES</h4>
-                    <h2 className="about-section-title center">Our Dual Operations</h2>
-                    <div className="about-values-underline"></div>
+                    <div className="section-center-header">
+                        <span className="about-section-tag">OUR CAPABILITIES</span>
+                        <h2 className="about-section-title center">Comprehensive SMT Divisions</h2>
+                        <div className="about-values-underline"></div>
+                        <p className="section-subtitle">Bridging industrial manufacturing and turnkey civil paving services.</p>
+                    </div>
                     
                     <div className="pillars-grid">
                         <div className="pillar-column manufacturing">
                             <div className="pillar-header">
-                                <Building size={32} />
-                                <h3>Manufacturing Division</h3>
+                                <div className="pillar-icon-box">
+                                    <Building size={30} />
+                                </div>
+                                <div>
+                                    <span className="pillar-tag">Production Division</span>
+                                    <h3>Manufacturing Facilities</h3>
+                                </div>
                             </div>
                             <ul className="pillar-list">
                                 <li>
-                                    <strong>Premium Paver Blocks:</strong> Styled interlocking pavers in diverse patterns, load specifications, and colors.
+                                    <strong>Interlocking Paver Blocks:</strong> Heavy-duty Zig-Zag, I-Shape, Dumble, and Hexagon pavers from M30 to M50 compressive strength grades in vibrant colors.
                                 </li>
                                 <li>
-                                    <strong>Fly Ash Bricks:</strong> Eco-friendly, uniform bricks providing exceptional insulation and high compressive strength.
+                                    <strong>Eco Fly Ash Bricks:</strong> Thermally insulated, uniform hydraulic-pressed bricks conforming strictly to IS 12894 standards.
                                 </li>
                                 <li>
-                                    <strong>Fire Safety Products:</strong> Reliable fire protection equipment supplied and installed for safety compliance.
+                                    <strong>Solid Concrete Blocks & Kerb Stones:</strong> High-density precast boundary kerb stones and building blocks engineered for modern architectural durability.
+                                </li>
+                                <li>
+                                    <strong>Grass Paver Blocks:</strong> Permeable eco-friendly concrete turf pavers for sustainable landscaping, parking lots, and driveway drainage.
                                 </li>
                             </ul>
                         </div>
                         
                         <div className="pillar-column contracting">
                             <div className="pillar-header">
-                                <Clock size={32} />
-                                <h3>Contracting Division</h3>
+                                <div className="pillar-icon-box">
+                                    <Clock size={30} />
+                                </div>
+                                <div>
+                                    <span className="pillar-tag">Execution Division</span>
+                                    <h3>Contracting & Paving Services</h3>
+                                </div>
                             </div>
                             <ul className="pillar-list">
                                 <li>
-                                    <strong>Civil Paving:</strong> High-precision laying of heavy-duty interlocking pavers for industrial, commercial, and municipal spaces.
+                                    <strong>Civil Paving Execution:</strong> Laser-guided laying of heavy-duty interlocking pavers for industrial factories, warehouses, ports, and petrol pumps.
                                 </li>
                                 <li>
-                                    <strong>Infrastructure Rehabilitation:</strong> Restoring surfaces, laying durable pavements, and grading civil layouts.
+                                    <strong>Pavement Restoration:</strong> Resurfacing damaged commercial pavements, sub-base leveling, sand-bedding, and edge restraint installations.
                                 </li>
                                 <li>
-                                    <strong>Site Development:</strong> Excavation, leveling, grading, and comprehensive civil preparation works.
+                                    <strong>Site Infrastructure Preparation:</strong> Professional site survey, sub-grade compaction, grading, and comprehensive civil preparation.
+                                </li>
+                                <li>
+                                    <strong>Dedicated Project Supervision:</strong> Experienced paving crew ensuring perfect alignment, seamless interlock, and vibration-compaction finishing.
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <FooterComponent></FooterComponent>
+                    {/* Quick Call to Action Banner */}
+                    <div className="about-cta-ribbon">
+                        <div className="cta-ribbon-text">
+                            <h3>Ready to Build with SMT Quality?</h3>
+                            <p>Contact our technical sales team for factory-direct quotes and compressive strength test certificates.</p>
+                        </div>
+                        <div className="cta-ribbon-actions">
+                            <Link to="/contact" className="btn-cta-gold">Request Factory Quote</Link>
+                            <Link to="/products" className="btn-cta-outline">Explore Materials</Link>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <FooterComponent />
         </div>
     );
 };
 
 export default AboutPage;
-
-
