@@ -1,18 +1,22 @@
 .navbarContainer {
-    background-color: #2b2b2b;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
     text-decoration: none;
-    color: #ffffff;
-    padding: 10px;
+    color: #1e293b;
+    padding: 12px 2rem;
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-right: 50px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 .navbarLogo {
@@ -21,29 +25,108 @@
     object-fit: contain;
 }
 
-.navbarText{
+.navbarText {
     text-decoration: none;
-    color: #ffffff;
+    color: #1e293b;
     font-weight: 600;
 }
 
 .letsTalkBtn {
-    background-color: transparent;
+    background-color: var(--primary-brand);
     color: #ffffff;
-    font-family: 'Barlow', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 10px 24px;
+    border-radius: 30px;
     text-decoration: none;
-    transition: background-color 0.2s, color 0.2s, transform 0.15s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-block;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--accent-color);
     cursor: pointer;
+    box-shadow: 0 4px 12px rgba(2, 115, 51, 0.15);
 }
 
 .letsTalkBtn:hover {
-    background-color: #ffffff;
-    color: #000000;
-    transform: translateY(-1px);
+    background-color: var(--accent-color);
+    color: #0b2513;
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(242, 198, 65, 0.4);
+}
+
+/* Navigation inner elements layout overrides */
+.navbarContainer nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0;
+    backdrop-filter: none;
+}
+
+.navbarContainer nav a {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding: 6px 0;
+    transition: color 0.25s ease;
+}
+
+.navbarContainer nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-brand);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbarContainer nav a:hover {
+    color: var(--primary-brand);
+}
+
+.navbarContainer nav a:hover::after,
+.navbarContainer nav a.active::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navbarContainer nav a.active {
+    color: var(--primary-brand);
+    font-weight: 600;
+}
+
+.navbarContainer .logo-text {
+    color: #1e293b;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.navbarContainer .logo-box {
+    background: transparent;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

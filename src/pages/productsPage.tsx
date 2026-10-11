@@ -49,8 +49,8 @@ const ProductsPage = () => {
                     modelSrc="/models/cementbrick.glb"
                     productName="Flyash Bricks"
                     description="Our premium flyash bricks offer excellent strength and durability, perfect for any construction project."
-                    backgroundColor="black"
-                    nameColor="white"
+                    backgroundColor="#013b19"
+                    nameColor="#ffffff"
                     poster="/models/flyash-brick-poster.webp"  // optional preview image
                     availableSizes={['9"x4"x3"', '9"x9"x4"']}
                 />
@@ -59,11 +59,61 @@ const ProductsPage = () => {
                     modelSrc="/models/solidblock.glb"
                     productName="Solid Block"
                     description="Our premium Solid Block offer excellent strength and durability, perfect for any construction project."
-                    backgroundColor="yellow"
-                    nameColor="white"
+                    backgroundColor="#1e293b"
+                    nameColor="#ffffff"
                     poster="/models/flyash-brick-poster.webp"
                     availableSizes={['4"x8"x16"', '6"x8"x16"', '8"x8"x16"']}
                 />
+            </div>
+
+            {/* PAVER BLOCKS COLLECTION (Sri Ganapathy Pavers reference) */}
+            <div className="pavers-category-section">
+                <div className="section-header-centered">
+                    <span className="section-tag-badge">TAMIL NADU FACTORY DIRECT</span>
+                    <h2 className="pavers-category-title">Interlocking Paver Blocks & Precast Range</h2>
+                    <div className="section-title-underline"></div>
+                    <p className="pavers-category-sub">
+                        Engineered with automated hydraulic vibration compaction, diverse geometric interlocking patterns, and non-fading pigments.
+                    </p>
+                </div>
+
+                <div className="pavers-grid">
+                    <div className="paver-item-card">
+                        <span className="paver-tag">60MM / 80MM • M30-M50</span>
+                        <h3 className="paver-name">Zig-Zag Interlocking Paver</h3>
+                        <p className="paver-specs">
+                            Strongest interlocking geometry. Ideal for high-movement commercial zones, petrol bunks, container depots, and private roadways.
+                        </p>
+                        <a href="/contact" className="paver-quote-btn">Get Price Quote</a>
+                    </div>
+
+                    <div className="paver-item-card">
+                        <span className="paver-tag">60MM / 80MM • M40</span>
+                        <h3 className="paver-name">I-Shape (Dumbbell) Paver</h3>
+                        <p className="paver-specs">
+                            Clean classic interlocking pattern. Excellent for parking bays, pedestrian avenues, university campuses, and residential layouts.
+                        </p>
+                        <a href="/contact" className="paver-quote-btn">Get Price Quote</a>
+                    </div>
+
+                    <div className="paver-item-card">
+                        <span className="paver-tag">80MM - 100MM • HEAVY DUTY</span>
+                        <h3 className="paver-name">Industrial Heavy Duty Paver</h3>
+                        <p className="paver-specs">
+                            Engineered for multi-axle freight traffic, warehouse terminal aprons, and industrial yards demanding maximum abrasion endurance.
+                        </p>
+                        <a href="/contact" className="paver-quote-btn">Get Price Quote</a>
+                    </div>
+
+                    <div className="paver-item-card">
+                        <span className="paver-tag">ECO DRAINAGE & PRECAST</span>
+                        <h3 className="paver-name">Grass Pavers & Kerb Stones</h3>
+                        <p className="paver-specs">
+                            Permeable landscaping pavers allowing lush green grass growth with natural rainwater harvesting, plus precast road kerb edging.
+                        </p>
+                        <a href="/contact" className="paver-quote-btn">Get Price Quote</a>
+                    </div>
+                </div>
             </div>
 
             <FooterComponent></FooterComponent>

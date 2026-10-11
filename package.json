@@ -1,6 +1,7 @@
 {
   "name": "smt_websites",
   "version": "0.1.0",
+  "homepage": "https://tharun-karthick.github.io/smt_websites",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
