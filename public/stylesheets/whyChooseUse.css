@@ -95,3 +95,176 @@
   line-height: 1.7;
   margin: 0;
 }
+
+/* ========================================================
+   WHY CHOOSE SMT PAVERS (CIRCULAR FEATURE BADGES GRID)
+   Sri Ganapathy Pavers Reference Format
+   ======================================================== */
+.why-choose-smt-section {
+  padding: 85px 2rem 75px;
+  background-color: #fafbfc;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  position: relative;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.why-choose-smt-container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.why-choose-smt-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0 0 10px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+
+.why-choose-smt-underline {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ea580c 0%, #f59e0b 100%);
+  margin: 0 auto 16px;
+  border-radius: 2px;
+}
+
+.why-choose-smt-subtitle {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #64748b;
+  max-width: 660px;
+  margin: 0 auto 55px;
+}
+
+.why-choose-badges-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 45px 24px;
+  justify-items: center;
+  align-items: start;
+}
+
+.why-choose-badge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  width: 100%;
+}
+
+.badge-ring-outer {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 2px solid rgba(234, 88, 12, 0.38);
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.15);
+  background: #ffffff;
+}
+
+.badge-circle-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.35), 0 6px 18px rgba(234, 88, 12, 0.3);
+  transition: all 0.35s ease;
+}
+
+.why-choose-badge-card:hover .badge-ring-outer {
+  border-color: #ea580c;
+  transform: translateY(-8px) scale(1.06);
+  box-shadow: 0 14px 30px rgba(234, 88, 12, 0.4);
+}
+
+.why-choose-badge-card:hover .badge-circle-inner {
+  background: linear-gradient(135deg, #fbbf24 0%, #dc2626 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.5), 0 10px 24px rgba(234, 88, 12, 0.45);
+}
+
+.badge-card-title {
+  margin-top: 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.35;
+  max-width: 140px;
+  transition: color 0.25s ease;
+}
+
+.why-choose-badge-card:hover .badge-card-title {
+  color: #ea580c;
+}
+
+/* View More special badge card */
+.why-choose-badge-card.link-badge:hover .view-more-text {
+  color: #ea580c;
+}
+
+.view-more-text {
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.view-more-circle {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .why-choose-badges-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px 16px;
+  }
+  .badge-ring-outer {
+    width: 82px;
+    height: 82px;
+  }
+  .badge-card-title {
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 860px) {
+  .why-choose-badges-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .why-choose-smt-section {
+    padding: 60px 1rem 50px;
+  }
+  .why-choose-badges-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 14px;
+  }
+  .badge-ring-outer {
+    width: 76px;
+    height: 76px;
+  }
+  .badge-card-title {
+    font-size: 13px;
+    max-width: 130px;
+  }
+}
+

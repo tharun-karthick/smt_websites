@@ -1,6 +1,7 @@
 import FooterComponent from "../components/footer";
 import NavBar from "../components/navbar";
 import WhyChooseUsCard from "../components/whyChooseUsCard";
+import WhyChoosePavers from "../components/whyChoosePavers";
 import GoogleReviewCard from "../components/googleReviewCard";
 import { ShieldCheck, Clock, Award, Handshake, Building, Truck, CheckCircle2, ArrowRight } from "lucide-react";
 import homeHeroImg1 from "../assets/home_hero_3d.png";
@@ -188,6 +189,9 @@ const Homepage = () => {
                     <img src={structureImg} alt="SMT Infrastructure Facilities" className="map-image" />
                 </div>
             </div>
+
+            {/* WHY CHOOSE SMT PAVERS (Sri Ganapathy Pavers 10-Badge Circular Grid Reference) */}
+            <WhyChoosePavers />
             
             {/* WHY CHOOSE US (Industry Standards) */}
             <div className="home-content-section">
