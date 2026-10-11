@@ -67,9 +67,9 @@
 .input-group input:focus, 
 .input-group select:focus, 
 .input-group textarea:focus {
-  border-color: #d19f40;
+  border-color: var(--accent-dark);
   background-color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(209, 159, 64, 0.15);
+  box-shadow: 0 0 0 4px rgba(var(--accent-dark-rgb), 0.15);
 }
 
 .phone-input {
@@ -83,9 +83,9 @@
 }
 
 .phone-input:focus-within {
-  border-color: #d19f40;
+  border-color: var(--accent-dark);
   background-color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(209, 159, 64, 0.15);
+  box-shadow: 0 0 0 4px rgba(var(--accent-dark-rgb), 0.15);
 }
 
 .country-code {
@@ -131,26 +131,31 @@
 }
 
 .submit-btn {
-  background-color: #000;
+  background-color: var(--primary-brand);
   color: #fff;
-  border: none;
+  border: 2px solid var(--accent-color);
   border-radius: 25px;
-  padding: 14px 30px;
-  font-size: 13px;
+  padding: 14px 34px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05em;
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 14px rgba(2, 115, 51, 0.2);
+  transition: all 0.25s ease;
 }
 
 .submit-btn:hover:not(:disabled) {
-  background-color: #222;
-  transform: translateY(-1px);
+  background-color: var(--accent-color);
+  color: #0b2513;
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(242, 198, 65, 0.4);
 }
 
 .submit-btn:disabled {
-  background-color: #666;
+  background-color: #64748b;
+  border-color: #94a3b8;
   cursor: not-allowed;
 }
 

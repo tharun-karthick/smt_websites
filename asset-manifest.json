@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/smt_websites/static/css/main.e6c13ad2.css",
-    "main.js": "/smt_websites/static/js/main.2b1cd343.js",
+    "main.css": "/smt_websites/static/css/main.56dad3a5.css",
+    "main.js": "/smt_websites/static/js/main.9c8d031c.js",
     "static/js/453.f3ea2a2f.chunk.js": "/smt_websites/static/js/453.f3ea2a2f.chunk.js",
     "static/media/background-buildingsketch.png": "/smt_websites/static/media/background-buildingsketch.08a1ef5160344439efcb.png",
     "static/media/3dStructure.png": "/smt_websites/static/media/3dStructure.7bd027756b86d557ac8b.png",
-    "static/media/roadworks_background.png": "/smt_websites/static/media/roadworks_background.64f2d64f1eb90c11dfd3.png",
     "static/media/home_hero_3d.png": "/smt_websites/static/media/home_hero_3d.42985b44db5e4e74f994.png",
     "static/media/about_hero_image.png": "/smt_websites/static/media/about_hero_image.b0225b506e0177967c4d.png",
     "static/media/products_hero_3d.png": "/smt_websites/static/media/products_hero_3d.1c40faf0035c70574f8b.png",
+    "static/media/sipcot.png": "/smt_websites/static/media/sipcot.5a6138fe0075e7ba671a.png",
+    "static/media/Sk.png": "/smt_websites/static/media/Sk.5d48e729b8161a275d64.png",
+    "static/media/ISRO.png": "/smt_websites/static/media/ISRO.125f23b19cd9ffecba1e.png",
+    "static/media/URc.png": "/smt_websites/static/media/URc.4e747eb836921709b8d0.png",
+    "static/media/Ansell.png": "/smt_websites/static/media/Ansell.6928014ee8b93a964b78.png",
     "static/media/Frame 920_page-0001.jpg": "/smt_websites/static/media/Frame 920_page-0001.49743bc15f1c91e4c62f.jpg",
+    "static/media/armstrong.png": "/smt_websites/static/media/armstrong.c46d0b7dcb7237082ea8.png",
+    "static/media/Dollar.png": "/smt_websites/static/media/Dollar.d907f35eda9113a61018.png",
     "index.html": "/smt_websites/index.html",
-    "main.e6c13ad2.css.map": "/smt_websites/static/css/main.e6c13ad2.css.map",
-    "main.2b1cd343.js.map": "/smt_websites/static/js/main.2b1cd343.js.map",
+    "main.56dad3a5.css.map": "/smt_websites/static/css/main.56dad3a5.css.map",
+    "main.9c8d031c.js.map": "/smt_websites/static/js/main.9c8d031c.js.map",
     "453.f3ea2a2f.chunk.js.map": "/smt_websites/static/js/453.f3ea2a2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.2b1cd343.js"
+    "static/css/main.56dad3a5.css",
+    "static/js/main.9c8d031c.js"
   ]
 }

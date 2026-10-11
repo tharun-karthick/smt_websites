@@ -58,7 +58,7 @@
 }
 
 .policy-link {
-    color: #c8821a;
+    color: var(--primary-brand);
     text-decoration: none;
 }
 
