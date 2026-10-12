@@ -52,7 +52,7 @@ const AboutPage = () => {
                     </div>
                     <div className="about-stat-item">
                         <div className="about-stat-num">2 Plants</div>
-                        <div className="about-stat-label">Perundurai & Puducherry</div>
+                        <div className="about-stat-label">Chennimalai &amp; Peruntholuvu</div>
                     </div>
                     <div className="about-stat-item">
                         <div className="about-stat-num">100%</div>
@@ -73,20 +73,20 @@ const AboutPage = () => {
                                 Operating with deep industry heritage under <strong>SMT Agencies</strong>, SMT Infrastructure has grown to become a benchmark in Tamil Nadu for superior concrete materials and civil contracting works. Our focused scale empowers our leadership to maintain hands-on supervision and absolute personal accountability on every dispatch.
                             </p>
                             <p className="about-paragraph">
-                                Over the last 16+ years, we have built lasting trust by engineering heavy-duty interlocking pavers, eco-conscious fly ash bricks, and delivering site execution for industrial corridors, commercial complexes, and government public infrastructure.
+                                Over the last 16+ years, we have built lasting trust by engineering heavy-duty interlocking pavers, eco-conscious fly ash bricks, architectural designer tiles, and precast kerb stones for industrial corridors, commercial complexes, and government public infrastructure.
                             </p>
                             <div className="story-key-highlights">
                                 <div className="highlight-item">
                                     <CheckCircle2 size={18} className="highlight-icon" />
-                                    <span>Automated hydraulic block casting technology</span>
+                                    <span>Automated hydraulic block casting &amp; rubber mould vibration</span>
                                 </div>
                                 <div className="highlight-item">
                                     <CheckCircle2 size={18} className="highlight-icon" />
-                                    <span>IS 12894 and IS 15658 compliant manufacturing</span>
+                                    <span>IS 12894 and IS 15658 compliant manufacturing standards</span>
                                 </div>
                                 <div className="highlight-item">
                                     <CheckCircle2 size={18} className="highlight-icon" />
-                                    <span>Direct site transportation across Tamil Nadu & Puducherry</span>
+                                    <span>Direct site transportation across Tamil Nadu from Chennimalai &amp; Peruntholuvu</span>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const AboutPage = () => {
                                     <div className="author-avatar">SMT</div>
                                     <div>
                                         <div className="quote-author">SMT Leadership Team</div>
-                                        <div className="author-title">Perundurai & Puducherry Divisions</div>
+                                        <div className="author-title">Chennimalai &amp; Peruntholuvu Divisions</div>
                                     </div>
                                 </div>
                             </div>
@@ -176,16 +176,19 @@ const AboutPage = () => {
                             </div>
                             <ul className="pillar-list">
                                 <li>
-                                    <strong>Interlocking Paver Blocks:</strong> Heavy-duty Zig-Zag, I-Shape, Dumble, and Hexagon pavers from M30 to M50 compressive strength grades in vibrant colors.
+                                    <strong>Fly Ash Bricks &amp; Solid Blocks:</strong> Thermally insulated, uniform hydraulic-pressed flyash bricks conforming strictly to IS 12894 standards with sharp edges and plaster-saving finish.
                                 </li>
                                 <li>
-                                    <strong>Eco Fly Ash Bricks:</strong> Thermally insulated, uniform hydraulic-pressed bricks conforming strictly to IS 12894 standards.
+                                    <strong>Rubber Mould &amp; Interlocking Pavers:</strong> Comprehensive range including Zig-Zag (60, 80, 100mm), I-Shape, Cosmic, Diamond, Arch, Cobble Stone, Key Paver, Brick Paver, and Square Pavers in M30 to M50 grades.
                                 </li>
                                 <li>
-                                    <strong>Solid Concrete Blocks & Kerb Stones:</strong> High-density precast boundary kerb stones and building blocks engineered for modern architectural durability.
+                                    <strong>Architectural Designer Tiles:</strong> Premium 22 to 24mm designer tiles including Corwin, Track, Escort, Metro Link, Majestic, Emperor Step Tiles, Terra Zone, Magna, Granito, and Spera.
                                 </li>
                                 <li>
-                                    <strong>Grass Paver Blocks:</strong> Permeable eco-friendly concrete turf pavers for sustainable landscaping, parking lots, and driveway drainage.
+                                    <strong>Precast Kerb Stones:</strong> High-density precast boundary kerb stones engineered for roadway edge containment, parking bay perimeters, and municipal avenues.
+                                </li>
+                                <li>
+                                    <strong>Grass Paver Blocks:</strong> Permeable 60mm eco-friendly concrete turf pavers for sustainable landscaping, stormwater management, and green driveway drainage.
                                 </li>
                             </ul>
                         </div>

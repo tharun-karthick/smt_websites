@@ -11,7 +11,7 @@ const NavBar = () => {
                             <text x="11" y="15.5" textAnchor="middle" fontSize="12" fontWeight="700" fill="white" fontFamily="Arial">M</text>
                         </svg>
                     </div>
-                    <span className="logo-text">SMT Paver Blocks</span>
+                    <span className="logo-text">SMT Infrastructure</span>
                 </Link>
                 <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
                 <NavLink to="/products" className={({ isActive }) => isActive ? "active" : ""}>Products</NavLink>

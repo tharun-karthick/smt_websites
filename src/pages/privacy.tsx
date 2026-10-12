@@ -74,8 +74,11 @@ const Privacy = () => {
                 <ul className="policy-list">
                     <li><strong>By email:</strong> <a href="mailto:smtflyashbricks@gmail.com" className="policy-link">smtflyashbricks@gmail.com</a></li>
                     <li><strong>By visiting this page on our website:</strong> <Link to="/contact" className="policy-link">Contact Us</Link></li>
-                    <li><strong>By phone number:</strong> <a href="tel:+919942375000" className="policy-link">+91 99423 75000</a></li>
-                    <li><strong>By Visiting Our Location:</strong> D.No. 58, Senthampalayam, Mukasipidariyur, Perundurai, Erode - 638 051.</li>
+                    <li><strong>By phone numbers:</strong> <a href="tel:+919940599404" className="policy-link">+91 99405 99404</a> / <a href="tel:+919942385000" className="policy-link">+91 99423 85000</a></li>
+                    <li><strong>By Visiting Our Locations:</strong><br />
+                        • Unit-1: D. No 58, Senthampalayam, Mukasipidariyur, Chennimalai, Tamil Nadu - 638051.<br />
+                        • Unit-2: No.3/72, Post, Andipalayam, Peruntholuvu, Tamil Nadu - 641665.
+                    </li>
                 </ul>
             </div>
 

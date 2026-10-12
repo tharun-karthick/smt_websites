@@ -71,7 +71,7 @@ const TermsAndConditions = () => {
                 </p>
                 <ul className="policy-list">
                     <li><strong>Email:</strong> <a href="mailto:smtflyashbricks@gmail.com" className="policy-link">smtflyashbricks@gmail.com</a></li>
-                    <li><strong>Phone:</strong> <a href="tel:+919942375000" className="policy-link">+91 99423 75000</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+919940599404" className="policy-link">+91 99405 99404</a> / <a href="tel:+919942385000" className="policy-link">+91 99423 85000</a></li>
                     <li><strong>Contact Page:</strong> <Link to="/contact" className="policy-link">Visit our Contact Us page</Link></li>
                 </ul>
             </div>

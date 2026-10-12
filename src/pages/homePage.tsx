@@ -29,11 +29,11 @@ const Homepage = () => {
                         <span>●</span> Tamil Nadu's Trusted Manufacturer
                     </div>
                     <h1 className="home-hero-heading">
-                        Engineering High-Strength <span className="accent">Paver Blocks.</span>
+                        Engineering High-Strength <span className="accent">Pavers &amp; Bricks.</span>
                     </h1>
                     <div className="home-hero-divider"></div>
                     <p className="home-hero-sub">
-                        Precision interlocking paver blocks, eco-friendly fly ash bricks, and solid concrete materials. Engineered with heavy-duty hydraulic compaction for industrial, commercial, and residential projects across South India.
+                        High-compressive Flyash Bricks, Rubber Mould &amp; Interlocking Paver Blocks, Architectural Designer Tiles, and Precast Kerb Stones. Engineered with heavy-duty automated hydraulic compaction across Tamil Nadu.
                     </p>
                     <div className="home-hero-btns">
                         <a href="/products" className="btn-primary">View Products</a>
@@ -42,7 +42,7 @@ const Homepage = () => {
                 </div>
             </div>
 
-            {/* CREDIBILITY STATS BAR (Sri Ganapathy Pavers reference) */}
+            {/* CREDIBILITY STATS BAR */}
             <div className="home-stats-bar">
                 <div className="home-stat-item">
                     <div className="home-stat-num">16+</div>
@@ -50,11 +50,11 @@ const Homepage = () => {
                 </div>
                 <div className="home-stat-item">
                     <div className="home-stat-num">40M+</div>
-                    <div className="home-stat-lbl">Blocks & Bricks Produced</div>
+                    <div className="home-stat-lbl">Blocks &amp; Bricks Produced</div>
                 </div>
                 <div className="home-stat-item">
-                    <div className="home-stat-num">500+</div>
-                    <div className="home-stat-lbl">Projects in Tamil Nadu</div>
+                    <div className="home-stat-num">2 Plants</div>
+                    <div className="home-stat-lbl">Chennimalai &amp; Peruntholuvu</div>
                 </div>
                 <div className="home-stat-item">
                     <div className="home-stat-num">100%</div>
@@ -62,76 +62,23 @@ const Homepage = () => {
                 </div>
             </div>
 
-            {/* FEATURED PAVER PRODUCTS SHOWCASE (Sri Ganapathy Pavers reference) */}
+            {/* FEATURED PRODUCTS SHOWCASE */}
             <div className="featured-products-section">
                 <div className="featured-products-container">
                     <div className="section-header-centered">
                         <span className="section-tag-badge">PRODUCT PORTFOLIO</span>
-                        <h2 className="section-main-title">Signature Paver Blocks & Bricks</h2>
+                        <h2 className="section-main-title">Bricks, Pavers, Tiles &amp; Kerb Stones</h2>
                         <div className="section-title-underline"></div>
                         <p className="section-main-sub">
-                            Manufactured using automated hydraulic vibration machines, high-grade stone aggregates, and superior mineral pigments for maximum load-bearing endurance.
+                            Manufactured using automated hydraulic compaction, high-grade stone aggregates, and superior mineral pigments for maximum load-bearing endurance.
                         </p>
                     </div>
 
                     <div className="featured-products-grid">
-                        {/* Product 1 */}
+                        {/* Product 1: Fly Ash Bricks */}
                         <div className="featured-prod-card">
                             <div className="prod-card-header">
-                                <div className="prod-badge">M30 - M50 GRADE</div>
-                                <h3 className="prod-title">Interlocking Paver Blocks</h3>
-                                <div className="prod-specs-tags">
-                                    <span className="spec-tag">60mm / 80mm</span>
-                                    <span className="spec-tag">Zig-Zag & I-Shape</span>
-                                </div>
-                            </div>
-                            <p className="prod-desc">
-                                High-density geometric interlocking pavers engineered for commercial driveways, petrol pumps, parking bays, and municipal pathways with outstanding grip.
-                            </p>
-                            <ul className="prod-features-list">
-                                <li><CheckCircle2 size={16} /> Heavy vehicle load resistance</li>
-                                <li><CheckCircle2 size={16} /> Anti-skid textured top surface</li>
-                                <li><CheckCircle2 size={16} /> Colors: Red, Yellow, Charcoal, Grey</li>
-                            </ul>
-                            <div className="prod-card-footer">
-                                <a href="/products" className="prod-card-btn">
-                                    <span>Explore Specifications</span>
-                                    <ArrowRight size={16} />
-                                </a>
-                            </div>
-                        </div>
-
-                        {/* Product 2 */}
-                        <div className="featured-prod-card highlight-card">
-                            <div className="popular-ribbon">HEAVY DUTY</div>
-                            <div className="prod-card-header">
-                                <div className="prod-badge accent">80mm - 100mm</div>
-                                <h3 className="prod-title">Industrial Yard Pavers</h3>
-                                <div className="prod-specs-tags">
-                                    <span className="spec-tag">M50 High Compaction</span>
-                                    <span className="spec-tag">Heavy Axle Load</span>
-                                </div>
-                            </div>
-                            <p className="prod-desc">
-                                Specialized heavy-duty blocks manufactured for container terminals, warehouse loading docks, industrial plants, and multi-axle truck transit routes.
-                            </p>
-                            <ul className="prod-features-list">
-                                <li><CheckCircle2 size={16} /> Severe traffic & abrasion resistant</li>
-                                <li><CheckCircle2 size={16} /> Resists oil, grease & chemical stains</li>
-                                <li><CheckCircle2 size={16} /> Colors: Industrial Grey, Terracotta, Yellow</li>
-                            </ul>
-                            <div className="prod-card-footer">
-                                <a href="/contact" className="prod-card-btn accent">
-                                    <span>Request Factory Quote</span>
-                                    <ArrowRight size={16} />
-                                </a>
-                            </div>
-                        </div>
-
-                        {/* Product 3 */}
-                        <div className="featured-prod-card">
-                            <div className="prod-card-header">
-                                <div className="prod-badge">GREEN BUILDING</div>
+                                <div className="prod-badge">GREEN BUILDING • IS 12894</div>
                                 <h3 className="prod-title">Premium Fly Ash Bricks</h3>
                                 <div className="prod-specs-tags">
                                     <span className="spec-tag">9"x4"x3"</span>
@@ -142,7 +89,7 @@ const Homepage = () => {
                                 Eco-friendly, uniformly cured bricks with sharp edges and smooth plaster-saving finish, delivering exceptional thermal insulation and structural longevity.
                             </p>
                             <ul className="prod-features-list">
-                                <li><CheckCircle2 size={16} /> High compressive strength</li>
+                                <li><CheckCircle2 size={16} /> High compressive strength (7.5 - 12.5 N/mm²)</li>
                                 <li><CheckCircle2 size={16} /> Low water absorption (&lt; 12%)</li>
                                 <li><CheckCircle2 size={16} /> Saves 20%+ in mortar consumption</li>
                             </ul>
@@ -154,23 +101,76 @@ const Homepage = () => {
                             </div>
                         </div>
 
-                        {/* Product 4 */}
-                        <div className="featured-prod-card">
+                        {/* Product 2: Rubber Mould & Interlocking Pavers */}
+                        <div className="featured-prod-card highlight-card">
+                            <div className="popular-ribbon">HEAVY DUTY</div>
                             <div className="prod-card-header">
-                                <div className="prod-badge">DRAINAGE & EDGING</div>
-                                <h3 className="prod-title">Grass Pavers & Kerb Stones</h3>
+                                <div className="prod-badge accent">M30 - M50 GRADE</div>
+                                <h3 className="prod-title">Rubber Mould &amp; Interlocking Pavers</h3>
                                 <div className="prod-specs-tags">
-                                    <span className="spec-tag">Eco Permeable</span>
-                                    <span className="spec-tag">Precast Concrete</span>
+                                    <span className="spec-tag">60mm / 80mm / 100mm</span>
+                                    <span className="spec-tag">Diverse Shapes</span>
                                 </div>
                             </div>
                             <p className="prod-desc">
-                                Sustainable permeable grass pavers allowing natural rainwater absorption and lawn aesthetics alongside heavy-duty boundary kerb stones for road edges.
+                                Extensive range including Zig-Zag, Cosmic, I-Shape, Diamond, Arch, Cobble Stone, Key, Brick, and Square pavers for high-traffic industrial and commercial zones.
                             </p>
                             <ul className="prod-features-list">
-                                <li><CheckCircle2 size={16} /> Eco-friendly rainwater harvesting</li>
-                                <li><CheckCircle2 size={16} /> Ideal for resorts, parks & modern homes</li>
-                                <li><CheckCircle2 size={16} /> Durable precast kerb stones for edging</li>
+                                <li><CheckCircle2 size={16} /> Multi-axle vehicular load resistance</li>
+                                <li><CheckCircle2 size={16} /> Anti-skid surface &amp; rich mineral pigments</li>
+                                <li><CheckCircle2 size={16} /> Colors: Red, Yellow, Grey, Charcoal</li>
+                            </ul>
+                            <div className="prod-card-footer">
+                                <a href="/products" className="prod-card-btn accent">
+                                    <span>Explore Paver Range</span>
+                                    <ArrowRight size={16} />
+                                </a>
+                            </div>
+                        </div>
+
+                        {/* Product 3: Architectural Designer Tiles */}
+                        <div className="featured-prod-card">
+                            <div className="prod-card-header">
+                                <div className="prod-badge">PREMIUM EXTERIORS</div>
+                                <h3 className="prod-title">Designer Tiles &amp; Step Tiles</h3>
+                                <div className="prod-specs-tags">
+                                    <span className="spec-tag">22mm - 24mm Thickness</span>
+                                    <span className="spec-tag">Architectural</span>
+                                </div>
+                            </div>
+                            <p className="prod-desc">
+                                Modern designer tiles for parking verandas, staircases, and walkways: Corwin, Track, Escort, Metro Link, Majestic, Emperor Step Tiles, Terra Zone, Magna, and Granito.
+                            </p>
+                            <ul className="prod-features-list">
+                                <li><CheckCircle2 size={16} /> Elegant textures &amp; designer geometries</li>
+                                <li><CheckCircle2 size={16} /> Specialized Emperor Step Tiles for stairways</li>
+                                <li><CheckCircle2 size={16} /> Weather &amp; slip-resistant finish</li>
+                            </ul>
+                            <div className="prod-card-footer">
+                                <a href="/products" className="prod-card-btn">
+                                    <span>Explore Designer Tiles</span>
+                                    <ArrowRight size={16} />
+                                </a>
+                            </div>
+                        </div>
+
+                        {/* Product 4: Kerb Stones & Grass Paver Blocks */}
+                        <div className="featured-prod-card">
+                            <div className="prod-card-header">
+                                <div className="prod-badge">EDGING &amp; DRAINAGE</div>
+                                <h3 className="prod-title">Kerb Stones &amp; Grass Pavers</h3>
+                                <div className="prod-specs-tags">
+                                    <span className="spec-tag">Precast Kerb Stones</span>
+                                    <span className="spec-tag">60mm Grass Pavers</span>
+                                </div>
+                            </div>
+                            <p className="prod-desc">
+                                High-density boundary kerb stones for road and pathway perimeter containment alongside permeable 60mm grass pavers for eco-friendly rainwater drainage and turf growth.
+                            </p>
+                            <ul className="prod-features-list">
+                                <li><CheckCircle2 size={16} /> Heavy precast kerb stones for perimeter containment</li>
+                                <li><CheckCircle2 size={16} /> Permeable grass pavers for green parking bays</li>
+                                <li><CheckCircle2 size={16} /> Direct factory delivery across Tamil Nadu</li>
                             </ul>
                             <div className="prod-card-footer">
                                 <a href="/products" className="prod-card-btn">
@@ -219,12 +219,12 @@ const Homepage = () => {
                     <WhyChooseUsCard
                         icon={<Building size={24} />}
                         title="Diverse Patterns & Colors"
-                        description="Comprehensive selection of Zig-Zag, I-Shape, Hexagonal, and Solid blocks in non-fading mineral pigment hues."
+                        description="Comprehensive selection of Zig-Zag, I-Shape, Cosmic, Designer Tiles, and Solid blocks in non-fading mineral pigment hues."
                     />
                     <WhyChooseUsCard
                         icon={<Truck size={24} />}
                         title="Rapid Fleet Site Delivery"
-                        description="Dedicated logistics fleet ensuring swift, undamaged delivery across Tirupur, Coimbatore, Erode, Salem, and Puducherry."
+                        description="Dedicated logistics fleet ensuring swift, undamaged delivery from Chennimalai & Peruntholuvu across Tirupur, Coimbatore, Erode, Salem, and Tamil Nadu."
                     />
                     <WhyChooseUsCard
                         icon={<Clock size={24} />}
@@ -234,25 +234,33 @@ const Homepage = () => {
                 </div>
             </div>
 
-            {/* FULL-WIDTH QUICK ENQUIRY BANNER (Sri Ganapathy Pavers signature ribbon) */}
+            {/* FULL-WIDTH QUICK ENQUIRY BANNER */}
             <div className="home-enquiry-banner">
                 <div className="enquiry-banner-inner">
                     <div className="enquiry-text-col">
                         <span className="enquiry-badge">DIRECT FACTORY SUPPLY</span>
                         <h3 className="enquiry-banner-title">
-                            Looking for High-Strength Paver Blocks at Best Prices?
+                            Looking for Factory-Direct Prices on Bricks, Pavers &amp; Tiles?
                         </h3>
                         <p className="enquiry-banner-sub">
-                            Speak with our technical sales team for sample requests, customized block specifications, and volume discounts across Tamil Nadu & Puducherry.
+                            Speak directly with our plant dispatch desk for sample requests, customized block specifications, and wholesale volume discounts across Tamil Nadu.
                         </p>
                     </div>
                     <div className="enquiry-cta-col">
-                        <a href="tel:+919942375000" className="enquiry-call-btn">
-                            <span className="phone-icon-wrap">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                            </span>
-                            <span>+91 99423 75000</span>
-                        </a>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                            <a href="tel:+919940599404" className="enquiry-call-btn">
+                                <span className="phone-icon-wrap">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </span>
+                                <span>+91 99405 99404</span>
+                            </a>
+                            <a href="tel:+919942385000" className="enquiry-call-btn" style={{ background: 'rgba(255,255,255,0.15)' }}>
+                                <span className="phone-icon-wrap">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </span>
+                                <span>+91 99423 85000</span>
+                            </a>
+                        </div>
                         <a href="/contact" className="enquiry-quote-btn">Get Free Quote</a>
                     </div>
                 </div>
@@ -327,30 +335,35 @@ const Homepage = () => {
                         photo="https://ui-avatars.com/api/?name=Vedavarshini+B&background=0D8ABC&color=fff"
                         rating={5}
                         reviewText="Excellent service and a pleasant approach to customers. They offer top quality products at affordable prices. They deliver goods to the site quickly. A great purchasing experience. Keep it up!"
+                        mapUrl="https://maps.google.com/maps?q=SMT+FLYASH+BRICKS"
                     />
                     <GoogleReviewCard 
                         name="SANKAR MOHITH"
                         photo="https://ui-avatars.com/api/?name=SANKAR+MOHITH&background=D81B60&color=fff"
                         rating={5}
                         reviewText="I am extremely satisfied with SMT Team work. They have a very committed team & excellent service. A special thanks to SMT who always responded well to my queries and suggestions, quick response to my request are highly appreciated. Wishes you and team many successful years!"
+                        mapUrl="https://maps.google.com/maps?q=SMT+FLYASH+BRICKS"
                     />
                     <GoogleReviewCard 
                         name="Kani Kanika"
                         photo="https://ui-avatars.com/api/?name=Kani+Kanika&background=C2185B&color=fff"
                         rating={5}
                         reviewText="We are very happy that we chose SMT Flyash Bricks for our recently completed home. The service, product quality, communication, and final finish were all excellent. The bricks give a unique look to our home, and we receive many compliments. Thank you to the SMT team."
+                        mapUrl="https://maps.google.com/maps?q=SMT+FLYASH+BRICKS"
                     />
                     <GoogleReviewCard 
                         name="prabhakaran R"
                         photo="https://ui-avatars.com/api/?name=prabhakaran+R&background=512DA8&color=fff"
                         rating={5}
                         reviewText="The bricks have uniform strength and design, which enhances both safety and durability. Overall, they are reliable and suitable for long-term construction use."
+                        mapUrl="https://maps.google.com/maps?q=SMT+FLYASH+BRICKS"
                     />
                     <GoogleReviewCard 
                         name="Then Mozhi"
                         photo="https://ui-avatars.com/api/?name=Then+Mozhi&background=1976D2&color=fff"
                         rating={5}
-                        reviewText="They have a wide variety of paver models and they have unique designs with affordable prices.Their commitment to work is really good. Customer friendly. The quality of paver block and laying is highly recommended. They have a huge production capacity and they can deliver the materials on time."
+                        reviewText="They have a wide variety of paver models and they have unique designs with affordable prices. Their commitment to work is really good. Customer friendly. The quality of paver block and laying is highly recommended. They have a huge production capacity and they can deliver the materials on time."
+                        mapUrl="https://maps.google.com/maps?q=SMT+FLYASH+BRICKS"
                     />
                 </div>
             </div>

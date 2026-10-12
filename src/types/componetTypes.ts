@@ -28,4 +28,6 @@ export interface GoogleReviewCardProps {
     photo: string;
     rating?: number;
     reviewText: string;
+    mapUrl?: string;
+    reviewDate?: string;
 }

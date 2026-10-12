@@ -182,10 +182,10 @@ const WhyChoosePavers = () => {
     return (
         <section className="why-choose-smt-section">
             <div className="why-choose-smt-container">
-                <h2 className="why-choose-smt-title">Why choose SMT Pavers?</h2>
+                <h2 className="why-choose-smt-title">Why Choose SMT?</h2>
                 <div className="why-choose-smt-underline"></div>
                 <p className="why-choose-smt-subtitle">
-                    Engineered with automated hydraulic compaction for superior durability, weather resistance, and lasting architectural appeal.
+                    Engineered with automated high-pressure hydraulic compaction, certified lab quality, and weather-resistant durability across Flyash Bricks, Paver Blocks, Designer Tiles &amp; Kerb Stones.
                 </p>
 
                 <div className="why-choose-badges-grid">
