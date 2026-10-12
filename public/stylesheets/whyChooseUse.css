@@ -1,13 +1,13 @@
 
 .wcCardWrapper {
-  background: linear-gradient(145deg, #ffffff 0%, #f7faf8 100%);
+  background: linear-gradient(145deg, #ffffff 0%, #fdfcf7 100%);
   border-radius: 20px;
   padding: 2.2rem 1.6rem;
-  box-shadow: 0 10px 35px rgba(2, 115, 51, 0.05), 0 2px 8px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 35px rgba(242, 198, 65, 0.08), 0 2px 8px rgba(0, 0, 0, 0.03);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
   overflow: hidden;
-  border: 1.5px solid rgba(2, 115, 51, 0.12);
+  border: 1.5px solid rgba(242, 198, 65, 0.25);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,7 +22,7 @@
   right: -50%;
   width: 220px;
   height: 220px;
-  background: radial-gradient(circle, rgba(2, 115, 51, 0.12) 0%, rgba(242, 198, 65, 0.1) 45%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(circle, rgba(242, 198, 65, 0.22) 0%, rgba(255, 216, 102, 0.1) 45%, rgba(255, 255, 255, 0) 70%);
   border-radius: 50%;
   z-index: -1;
   transition: transform 0.6s ease;
@@ -36,7 +36,7 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, var(--primary-brand) 0%, var(--accent-color) 100%);
+  background: linear-gradient(90deg, #ffd866 0%, #F2C641 50%, #d4a317 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -44,8 +44,8 @@
 
 .wcCardWrapper:hover {
   transform: translateY(-8px);
-  box-shadow: 0 22px 48px rgba(2, 115, 51, 0.12), 0 4px 14px rgba(0, 0, 0, 0.04);
-  border-color: rgba(2, 115, 51, 0.32);
+  box-shadow: 0 22px 48px rgba(242, 198, 65, 0.2), 0 4px 14px rgba(0, 0, 0, 0.04);
+  border-color: rgba(242, 198, 65, 0.55);
 }
 
 .wcCardWrapper:hover::before {
@@ -70,7 +70,7 @@
 }
 
 .wcCardWrapper:hover .wcTitle {
-  color: var(--primary-brand);
+  color: #b38304;
 }
 
 .wcIconWrapper {
@@ -79,24 +79,24 @@
   justify-content: center;
   width: 52px;
   height: 52px;
-  background: linear-gradient(135deg, rgba(2, 115, 51, 0.1) 0%, rgba(242, 198, 65, 0.18) 100%);
-  border: 1.5px solid rgba(2, 115, 51, 0.16);
+  background: linear-gradient(135deg, rgba(242, 198, 65, 0.18) 0%, rgba(212, 163, 23, 0.26) 100%);
+  border: 1.5px solid rgba(242, 198, 65, 0.38);
   border-radius: 14px;
   margin-bottom: 1.25rem;
-  color: var(--primary-brand);
+  color: #b38304;
   transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .wcCardWrapper:hover .wcIconWrapper {
-  background: linear-gradient(135deg, var(--primary-brand) 0%, var(--primary-brand-dark) 100%);
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  background: linear-gradient(135deg, #ffd866 0%, #F2C641 50%, #d4a317 100%);
+  border-color: #d4a317;
+  color: #ffffff;
   transform: scale(1.08) rotate(4deg);
-  box-shadow: 0 8px 20px rgba(2, 115, 51, 0.28), 0 0 10px rgba(242, 198, 65, 0.2);
+  box-shadow: 0 8px 22px rgba(242, 198, 65, 0.45);
 }
 
 .wcCardWrapper:hover .wcIconWrapper svg {
-  stroke: var(--accent-color);
+  stroke: #ffffff;
 }
 
 .wcText {
@@ -109,17 +109,17 @@
 
 /* ========================================================
    WHY CHOOSE SMT PAVERS (CIRCULAR FEATURE BADGES GRID)
-   Sri Ganapathy Pavers Reference Format - Green & Gold Theme
+   Sri Ganapathy Pavers Reference Format - Yellow & Gold Theme
    ======================================================== */
 .why-choose-smt-section {
   padding: 85px 2rem 75px;
-  background-color: #fcfdfc;
-  background-image: radial-gradient(rgba(2, 115, 51, 0.08) 1.2px, transparent 1.2px);
+  background-color: #fdfdf9;
+  background-image: radial-gradient(rgba(242, 198, 65, 0.18) 1.2px, transparent 1.2px);
   background-size: 24px 24px;
   position: relative;
   text-align: center;
-  border-top: 1px solid rgba(2, 115, 51, 0.08);
-  border-bottom: 1px solid rgba(2, 115, 51, 0.08);
+  border-top: 1px solid rgba(242, 198, 65, 0.15);
+  border-bottom: 1px solid rgba(242, 198, 65, 0.15);
 }
 
 .why-choose-smt-container {
@@ -140,7 +140,7 @@
 .why-choose-smt-underline {
   width: 70px;
   height: 4px;
-  background: linear-gradient(90deg, var(--primary-brand) 0%, var(--accent-color) 100%);
+  background: linear-gradient(90deg, #ffd866 0%, #F2C641 50%, #d4a317 100%);
   margin: 0 auto 16px;
   border-radius: 2px;
 }
@@ -176,13 +176,13 @@
   width: 92px;
   height: 92px;
   border-radius: 50%;
-  border: 2px solid rgba(2, 115, 51, 0.25);
+  border: 2px solid rgba(242, 198, 65, 0.45);
   padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 4px 14px rgba(2, 115, 51, 0.1);
+  box-shadow: 0 4px 14px rgba(242, 198, 65, 0.2);
   background: #ffffff;
 }
 
@@ -190,24 +190,24 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(135deg, #027333 0%, #015425 60%, #003e1b 100%);
+  background: linear-gradient(135deg, #f7b928 0%, #F2C641 45%, #d4950e 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 6px 18px rgba(2, 115, 51, 0.25);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.45), 0 6px 18px rgba(242, 198, 65, 0.35);
   transition: all 0.35s ease;
 }
 
 .why-choose-badge-card:hover .badge-ring-outer {
-  border-color: var(--accent-color);
+  border-color: #d4a317;
   transform: translateY(-8px) scale(1.06);
-  box-shadow: 0 14px 30px rgba(2, 115, 51, 0.22), 0 0 16px rgba(242, 198, 65, 0.35);
+  box-shadow: 0 14px 30px rgba(242, 198, 65, 0.45), 0 0 18px rgba(255, 216, 102, 0.5);
 }
 
 .why-choose-badge-card:hover .badge-circle-inner {
-  background: linear-gradient(135deg, #039842 0%, #027333 60%, #014d23 100%);
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.45), 0 10px 24px rgba(2, 115, 51, 0.38);
+  background: linear-gradient(135deg, #ffe082 0%, #ffca28 50%, #e09200 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.6), 0 10px 26px rgba(242, 198, 65, 0.45);
 }
 
 .badge-card-title {
@@ -222,45 +222,45 @@
 }
 
 .why-choose-badge-card:hover .badge-card-title {
-  color: var(--primary-brand);
+  color: #b38304;
 }
 
 /* View More special badge card - Golden yellow accent */
 .view-more-ring {
-  border-color: rgba(242, 198, 65, 0.55);
-  box-shadow: 0 4px 14px rgba(242, 198, 65, 0.2);
+  border-color: rgba(212, 163, 23, 0.7);
+  box-shadow: 0 4px 14px rgba(212, 163, 23, 0.3);
 }
 
 .view-more-circle {
-  background: linear-gradient(135deg, #ffd866 0%, #F2C641 100%);
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.6), 0 6px 18px rgba(242, 198, 65, 0.3);
+  background: linear-gradient(135deg, #e5a408 0%, #c48800 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.5), 0 6px 18px rgba(212, 163, 23, 0.4);
 }
 
 .view-more-circle svg polyline {
-  stroke: #027333;
+  stroke: #ffffff;
 }
 
 .why-choose-badge-card.link-badge:hover .view-more-ring {
-  border-color: var(--primary-brand);
-  box-shadow: 0 14px 30px rgba(2, 115, 51, 0.3);
+  border-color: #ffd866;
+  box-shadow: 0 14px 30px rgba(242, 198, 65, 0.5);
 }
 
 .why-choose-badge-card.link-badge:hover .view-more-circle {
-  background: linear-gradient(135deg, var(--primary-brand) 0%, var(--primary-brand-dark) 100%);
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 10px 24px rgba(2, 115, 51, 0.35);
+  background: linear-gradient(135deg, #ffd866 0%, #F2C641 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.7), 0 10px 24px rgba(242, 198, 65, 0.5);
 }
 
 .why-choose-badge-card.link-badge:hover .view-more-circle svg polyline {
-  stroke: var(--accent-color);
+  stroke: #0f172a;
 }
 
 .view-more-text {
   font-weight: 800;
-  color: var(--primary-brand);
+  color: #111827;
 }
 
 .why-choose-badge-card.link-badge:hover .view-more-text {
-  color: var(--primary-brand-hover);
+  color: #b38304;
 }
 
 /* Responsiveness */

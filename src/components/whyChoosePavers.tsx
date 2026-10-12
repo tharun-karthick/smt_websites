@@ -86,7 +86,7 @@ const WhyChoosePavers = () => {
                     <rect x="25" y="14" width="14" height="6" rx="3" stroke="#ffffff" strokeWidth="2.5" />
                     <path d="M19 23 L45 23 C48 23 50 26 49 29 L46 47 C45 50 43 51 40 51 L24 51 C21 51 19 50 18 47 L15 29 C14 26 16 23 19 23 Z" fill="#ffffff" />
                     {/* Leaf cutout */}
-                    <path d="M32 45 C32 45 39 41 39 34 C39 29 35 28 32 28 C29 28 25 29 25 34 C25 41 32 45 32 45 Z" fill="#027333" />
+                    <path d="M32 45 C32 45 39 41 39 34 C39 29 35 28 32 28 C29 28 25 29 25 34 C25 41 32 45 32 45 Z" fill="#d4950e" />
                     <path d="M32 45 L32 31" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round" />
                 </svg>
             ),
